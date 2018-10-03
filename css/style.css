@@ -21,6 +21,16 @@ p{
     background-color: rgba(0,0,0,0.7);
 }
 
+h1 {
+    letter-spacing: 11px;
+    font-weight: bold;
+}
+
+p {
+    letter-spacing: 3px;
+    font-weight: 500;
+}
+
 
 /* HEADER */
 
@@ -33,7 +43,7 @@ p{
 }
 
 #contact-ul {
-    margin-right: 20px;
+    margin-right: 21px;
 }
 
 .logonav{
@@ -56,9 +66,12 @@ p{
 
 nav a{
     letter-spacing: 5px;
-    margin-left: 15px;
+    margin: 0 15px;
 }
 
+#navbarNavAltMarkup {
+    margin-right: 10px;
+}
 
 
 /* ACCUEIL */
@@ -139,12 +152,12 @@ button.navbar-toggler.bg-dark {
 }
 
 .navbar-toggler {
-    margin-right: 20px;
+    margin-right: 21px;
 }
 
 
 
-/* tablettes */
+/* portables et tablettes */
 @media screen and (max-width: 991px) {
 
     /*header nav*/
@@ -199,5 +212,11 @@ button.navbar-toggler.bg-dark {
         min-width: 70% !important;
         width: min-content; 
         text-align: center;
+    }
+
+    /* accueil carousel */
+    p {
+        letter-spacing: 0.5px;
+
     }
 }
