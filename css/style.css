@@ -4,6 +4,11 @@ body{
     font-family: 'Oswald', sans-serif;
 }
 
+.no-padding-nav {
+    padding-right: 0;
+    padding-left: 0;
+}
+
 p{
     font-family: 'Chakra Petch', sans-serif;
 }
@@ -12,11 +17,31 @@ p{
     background-color: #28282D;
 }
 
+.bg-black-opacity{
+    background-color: rgba(0,0,0,0.7);
+}
+
 
 /* HEADER */
 
+
+#contact-header{
+    display: block;
+    height: 35px;
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 75%;
+}
+
+#contact-ul {
+    margin-right: 20px;
+}
+
 .logonav{
     max-width: 25% !important;
+}
+
+.navbar {
+    padding: 0;
 }
 
 .navbar-brand {
@@ -48,9 +73,9 @@ nav a{
     height: 100vh;
     min-height: 300px;
     background: no-repeat center center scroll;
-    /* -webkit-background-size: cover;
+    -webkit-background-size: cover;
     -moz-background-size: cover;
-    -o-background-size: cover; */
+    -o-background-size: cover;
     background-size: cover;
 }
 
@@ -113,34 +138,66 @@ button.navbar-toggler.bg-dark {
     background-color: cadetblue !important;
 }
 
+.navbar-toggler {
+    margin-right: 20px;
+}
+
 
 
 /* tablettes */
 @media screen and (max-width: 991px) {
+
+    /*header nav*/
     .navbar-toggler {
         height: min-content;
         margin-top: 4%;
         margin-bottom: 4%;
     }
+
+    /*accueil carousel*/
     #presentation p {
        padding: 20px 20px;
     }
 }
 
 
-/* portables*/
+/* portables */
 @media screen and (max-width: 768px) {
+
+    /*header nav*/
     .navbar-brand {
         min-width: 70% !important;
-        width: min-content;
+        width: min-content; 
     }
-    
+
     .navbar-toggler {
         border: none;
     } 
 
+    /*accueil carousel*/
     #presentation h1 {
         font-size: 1.5rem;
-        top: 20%;
+        top: 15%;
+    }
+
+    #presentation p {   
+        top: 27%;
+        line-height: 200%;
+        font-size: 1.2rem;
+    }
+
+}
+
+@media screen and (max-width: 576px) {
+
+    /* nav */
+    .logonav {
+        margin-left: 40px; 
+    }
+
+    .navbar-brand {
+        min-width: 70% !important;
+        width: min-content; 
+        text-align: center;
     }
 }
