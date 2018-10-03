@@ -4,6 +4,10 @@ body{
     font-family: 'Comfortaa', sans-serif;
 }
 
+section {
+    text-align: center;
+}
+
 .no-padding-nav {
     padding-right: 0;
     padding-left: 0;
@@ -118,9 +122,6 @@ nav a{
 
 /*services*/
 
-#services {
-    height: 800px;
-}
 
 
 /* TARIFS */
@@ -142,6 +143,8 @@ nav a{
 
 /* RESPONSIVE */
 
+
+
 button.navbar-toggler.bg-dark {
     background-color: cadetblue !important;
 }
@@ -150,6 +153,9 @@ button.navbar-toggler.bg-dark {
     margin-right: 21px;
 }
 
+
+
+/* portables et tablettes */
 
 @media screen and (max-width: 1300px) {
 
@@ -160,8 +166,6 @@ button.navbar-toggler.bg-dark {
     }
 }
 
-
-/* portables et tablettes */
 @media screen and (max-width: 991px) {
 
     /*header nav*/
@@ -178,10 +182,46 @@ button.navbar-toggler.bg-dark {
 }
 
 
+
+/* tablettes */
+
+/*ipad pro*/
+@media screen and (min-height: 1300px) and (max-height: 1367px) {
+    #contact-ul {
+        font-size: 17px;
+    }  
+
+    #presentation h1 {
+        font-size: 3.2rem;
+        top: 250px;
+    }
+
+    #presentation p {
+        font-size: 30px;
+        top: 400px;
+     }
+
+}
+/*****************/
+
+
+@media screen and (max-height: 1025px) {
+    #contact-ul {
+        font-size: larger;
+    }
+}
+
+
+@media screen and (min-height: 1024px) {
+    .navbar-light .navbar-toggler-icon {
+        width: 35px;
+        height: 40px;
+    }
+}
+
+
 /* portables */
 @media screen and (max-width: 768px) {
-
-    /*header nav*/
     .navbar-brand {
         min-width: 70% !important;
         width: min-content; 
@@ -190,8 +230,6 @@ button.navbar-toggler.bg-dark {
     .navbar-toggler {
         border: none;
     } 
-
-    /*accueil carousel*/
     #presentation h1 {
         font-size: 1.6rem;
         top: 15%;
@@ -205,21 +243,63 @@ button.navbar-toggler.bg-dark {
 
 }
 
-@media screen and (max-width: 576px) {
 
-    /* nav */
+@media screen and (min-width: 655px ) and (max-width: 768px) {
+    #presentation h1 {
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 576px) {
     .logonav {
         margin-left: 63px; 
     }
-
     .navbar-brand {
         min-width: 70% !important;
         width: min-content; 
         text-align: center;
     }
 
-    /* accueil carousel */
     p {
         letter-spacing: 0.5px;
+    }
+    
+    #services {
+        padding-top: 15px;
+    }
+}
+
+/* tout petits ecrans*/
+@media screen and (min-width: 320px) {
+    #presentation h1 {
+        margin-top: 10px;
+    }
+}
+
+
+@media screen and (max-height: 830px) {
+    .navbar-light .navbar-toggler-icon {
+        width: 20px;
+    }
+
+    #presentation p {
+        line-height: unset;
+        font-size: 0.9rem;
+    }
+}
+
+
+
+/*iphone5/SE*/
+@media screen and (max-height: 569px) {
+    #presentation h1 {
+        margin-top: 30px;
+    }
+
+    #presentation p {
+        line-height: unset;
+        font-size: 0.7rem;
+        width: auto;
+        padding-top: 25%;
     }
 }
