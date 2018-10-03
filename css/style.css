@@ -12,25 +12,48 @@ p{
     background-color: #28282D;
 }
 
+
 /* HEADER */
 
 .logonav{
-    max-width: 20% !important;
+    max-width: 25% !important;
+}
+
+.navbar-brand {
+    display: inline-block;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
 }
 
 nav a{
     letter-spacing: 5px;
     margin-left: 15px;
 }
+
+
+
 /* ACCUEIL */
+
+
 
 #carouselExampleSlidesOnly{
     z-index: -500;
 }
 
-.carousel-item img{
-    height: 50%;
+.carousel-item {
+    height: 100vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    /* -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover; */
+    background-size: cover;
 }
+
 
 #presentation h1{
     position: absolute;
@@ -49,12 +72,23 @@ nav a{
     top: 45%;
     left: 0;
     right: 0;
+    font-size: 1.15rem;
+    font-weight: 300;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
     padding: 20px 200px;
-/*    background-color: rgba(0,0,0,0.8);*/
 }
+
+
+
+
+/*services*/
+
+/* div#services {
+    background-color: red;
+} */
+
 
 /* TARIFS */
 
@@ -67,8 +101,46 @@ nav a{
 /* FOOTER */
 
 
-
 /* Mentions légales */
 /* Données personnelles */
 /* Cookies */
 /* Plan du site */
+
+
+/* RESPONSIVE */
+
+button.navbar-toggler.bg-dark {
+    background-color: cadetblue !important;
+}
+
+
+
+/* tablettes */
+@media screen and (max-width: 991px) {
+    .navbar-toggler {
+        height: min-content;
+        margin-top: 4%;
+        margin-bottom: 4%;
+    }
+    #presentation p {
+       padding: 20px 20px;
+    }
+}
+
+
+/* portables*/
+@media screen and (max-width: 768px) {
+    .navbar-brand {
+        min-width: 70% !important;
+        width: min-content;
+    }
+    
+    .navbar-toggler {
+        border: none;
+    } 
+
+    #presentation h1 {
+        font-size: 1.5rem;
+        top: 20%;
+    }
+}
