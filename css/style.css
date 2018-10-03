@@ -1,7 +1,7 @@
 /* GENERAL */
 
 body{
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Comfortaa', sans-serif;
 }
 
 .no-padding-nav {
@@ -10,7 +10,7 @@ body{
 }
 
 p{
-    font-family: 'Chakra Petch', sans-serif;
+    font-family: 'Comfortaa', sans-serif;
 }
 
 .bg-anthra{
@@ -18,16 +18,16 @@ p{
 }
 
 .bg-black-opacity{
-    background-color: rgba(0,0,0,0.7);
+    background-color: rgba(0,0,0,0.3);
 }
 
 h1 {
-    letter-spacing: 11px;
+    letter-spacing: 5px;
     font-weight: bold;
 }
 
 p {
-    letter-spacing: 3px;
+    letter-spacing: 1px;
     font-weight: 500;
 }
 
@@ -65,7 +65,7 @@ p {
 }
 
 nav a{
-    letter-spacing: 5px;
+    letter-spacing: 3px;
     margin: 0 15px;
 }
 
@@ -110,11 +110,10 @@ nav a{
     top: 45%;
     left: 0;
     right: 0;
-    font-size: 1.15rem;
-    font-weight: 300;
+    font-size: 1.10rem;
     margin-left: auto;
     margin-right: auto;
-    width: 100%;
+    width: 85%;
     padding: 20px 200px;
 }
 
@@ -156,6 +155,15 @@ button.navbar-toggler.bg-dark {
 }
 
 
+@media screen and (max-width: 1300px) {
+
+ 
+    /*accueil carousel*/
+    #presentation p {
+        padding: 20px 20px; 
+    }
+}
+
 
 /* portables et tablettes */
 @media screen and (max-width: 991px) {
@@ -189,14 +197,14 @@ button.navbar-toggler.bg-dark {
 
     /*accueil carousel*/
     #presentation h1 {
-        font-size: 1.5rem;
+        font-size: 1.6rem;
         top: 15%;
     }
 
     #presentation p {   
         top: 27%;
-        line-height: 200%;
-        font-size: 1.2rem;
+        line-height: 160%;
+        font-size: 1.1rem;
     }
 
 }
@@ -217,6 +225,5 @@ button.navbar-toggler.bg-dark {
     /* accueil carousel */
     p {
         letter-spacing: 0.5px;
-
     }
 }
