@@ -26,10 +26,10 @@
                         </button>
                         
                         <div class="collapse navbar-collapse text-uppercase justify-content-end" id="navbarNavAltMarkup">
-                            <div class="navbar-nav">
-                                <a class="nav-item nav-link text-white active" href="/">Accueil<span class="sr-only">(current)</span></a>
-                                <a class="nav-item nav-link text-white" href="tarifs">Tarifs</a>
-                                <a class="nav-item nav-link text-white" href="contact">Contact</a>
+                            <div class="navbar-nav square">
+                                <a class="nav-item nav-link text-white effect-1 active dropdown" href="/">Accueil<span class="sr-only">(current)</span></a>
+                                <a class="nav-item nav-link text-white effect-1 active dropdown" href="tarifs">Tarifs</a>
+                                <a class="nav-item nav-link text-white effect-1 active dropdown" href="contact">Contact</a>
                             </div>
                         </div>
                     </nav>
