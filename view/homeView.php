@@ -26,7 +26,20 @@
         </section>
     
         <section id="services">
-            <h1>SERVICES</h1> 
+            <h2 class="py-4">Nous vous proposons tous types de services et conseils en informatique</h2>
+            <ul class="list-unstyled">
+                <li class="py-2">Dépannage tout support Windows et MacOs (PC portable, unité centrale, téléphone portable, tablette ...)</li>
+                <li class="py-2">Dépannage en atelier et à domicile</li>
+                <li class="py-2">Conseils personnalisés pour un achat, une configuration, périphériques, gaming, musique informatique etc…</li>
+                <li class="py-2">Formation à domicile</li>
+                <li class="py-2">Aide et assistance fournisseur d'accès internet</li>
+                <li class="py-2">Assemblage d'unité centrale : bureautique, multimédia, gamer ou même M.A.O. (Home Studio)</li>
+                <li class="py-2">Installation et nettoyage de système d'exploitation</li>
+                <li class="py-2">Amélioration des performances de votre machine</li>
+                <li class="py-2">Récupération et sauvegarde de données (Serveur N.A.S.)</li>
+                <li class="py-2">Et bien plus encore. N'hésitez pas à nous contacter par téléphone au 06.06.06.06.06 ou via <a href="contact">le formulaire de contact</a></li>
+            </ul>
+            <p class="py-2">A tout problème sa solution.</p>
         </section> 
     </article> 
 </main>   

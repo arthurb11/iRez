@@ -39,7 +39,7 @@ p {
 #contact-header{
     display: block;
     height: 35px;
-    font-family: 'Chakra Petch', sans-serif;
+/*    font-family: 'Chakra Petch', sans-serif;*/
     font-size: 75%;
 }
 
@@ -77,7 +77,7 @@ nav a{
 
 /* ACCUEIL */
 
-
+/*//// carousel */
 
 #carouselExampleSlidesOnly{
     z-index: -500;
@@ -120,9 +120,22 @@ nav a{
     position: fixed;
 }
 
-/*services*/
+/*//// services */
 
+#services li{
+    color: #000;
+}
 
+#services a{
+    color: #000;
+    transition: 500ms;
+}
+
+#services a:hover{
+    text-decoration: none;
+    color: cadetblue;
+    transition: 500ms;
+}
 
 /* TARIFS */
 
@@ -134,6 +147,25 @@ nav a{
 
 /* FOOTER */
 
+footer{
+    font-size: 70%;
+}
+
+footer i:hover{
+    font-size: 200%;
+    transition: 500ms;
+    color: cadetblue;
+}
+
+footer i{
+    font-size: 150%;
+    transition: 500ms;
+}
+
+footer a, footer a:hover{
+    text-decoration: none;
+    color: #fff;
+}
 
 /* Mentions légales */
 /* Données personnelles */

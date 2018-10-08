@@ -1,7 +1,6 @@
 <!doctype html>
 <html lang="en">
     <head>
-      
         <!-- Required meta tags -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -14,6 +13,7 @@
         <link rel="stylesheet" href="asserts/css/style.css">
         <title> <?= $title ?> </title>
     </head>
+    
     <header>
         <!-- Navigation -->
         <div class="container-fluid fixed-top">
@@ -60,7 +60,29 @@
 
 
     <footer>
-
+        <div class="container-fluid bg-anthra">
+            <div class="text-center text-white py-2">
+                <a class="py-2" href="contact"><i class="fas fa-envelope pt-2"></i></a>
+                <p class="pt-3">07 00 00 00 00 | irez@gmail.com</p>
+                <p>240 Chemin Saint Martin 13420 Gémenos</p>
+            </div>
+        </div>
+        <div class="container-fluid bg-dark text-white pt-3">
+            <div class="row">
+                <div class="col-md-6">
+                    <p>iRez 2018 | Tous droits réservés</p>
+                </div>
+                <div class="col-md-6 text-right">
+                    <ul class="list-inline">
+                        <li class="list-inline-item"><a href="#">Mentions légales</a></li>
+                        <li class="list-inline-item">|</li>
+                        <li class="list-inline-item"><a href="#">Données personnelles</a></li>
+                        <li class="list-inline-item">|</li>
+                        <li class="list-inline-item"><a href="#">Plan du site</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </footer>
 
     <!-- Optional JavaScript -->
