@@ -4,9 +4,11 @@ body{
     font-family: 'Comfortaa', sans-serif;
 }
 
+/*
 section {
     text-align: center;
 }
+*/
 
 .no-padding-nav {
     padding-right: 0;
@@ -167,7 +169,9 @@ transform: scaleX(1);
 
 /* TARIFS */
 
-
+#tarifs{
+    margin-top: 200px;
+}
 
 /* CONTACT */
 
