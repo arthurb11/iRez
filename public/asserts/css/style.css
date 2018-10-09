@@ -6,7 +6,7 @@ body{
 
 /*
 section {
-    text-align: center;
+text-align: center;
 }
 */
 
@@ -41,7 +41,7 @@ p {
 #contact-header{
     display: block;
     height: 35px;
-/*    font-family: 'Chakra Petch', sans-serif;*/
+    /*    font-family: 'Chakra Petch', sans-serif;*/
     font-size: 75%;
 }
 
@@ -78,13 +78,13 @@ nav a{
 
 
 a.nav-item:before, a.nav-item:after {
-content: '';
-position: absolute;
-transition: transform .2s ease;
+    content: '';
+    position: absolute;
+    transition: transform .2s ease;
 }
 
 a.nav-item.effect-1 {
-padding-top: 10px;
+    padding-top: 10px;
 }
 a.nav-item.effect-1:focus  {
     color: cadetblue !important;
@@ -92,15 +92,15 @@ a.nav-item.effect-1:focus  {
 
 
 a.nav-item.effect-1:before {
-left: 0;
-bottom: 0;
-width: 100%;
-height: 2px;
-background: cadetblue;
-transform: scaleX(0);
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background: cadetblue;
+    transform: scaleX(0);
 }
 a.nav-item.effect-1:hover:before {
-transform: scaleX(1);
+    transform: scaleX(1);
 }
 
 
@@ -175,7 +175,13 @@ transform: scaleX(1);
 
 /* CONTACT */
 
+#contact button{
+    width: 100%;
+}
 
+#contact h1{
+    margin-top: 200px;
+}
 
 /* FOOTER */
 
@@ -223,7 +229,7 @@ button.navbar-toggler.bg-dark {
 
 @media screen and (max-width: 1300px) {
 
- 
+
     /*accueil carousel*/
     #presentation p {
         padding: 20px 20px; 
@@ -241,7 +247,7 @@ button.navbar-toggler.bg-dark {
 
     /*accueil carousel*/
     #presentation p {
-       padding: 20px 20px;
+        padding: 20px 20px;
     }
 }
 
@@ -263,7 +269,7 @@ button.navbar-toggler.bg-dark {
     #presentation p {
         font-size: 30px;
         top: 400px;
-     }
+    }
 
 }
 /*****************/
@@ -327,7 +333,7 @@ button.navbar-toggler.bg-dark {
     p {
         letter-spacing: 0.5px;
     }
-    
+
     #services {
         padding-top: 15px;
     }

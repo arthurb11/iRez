@@ -1,5 +1,5 @@
 <?php $title = 'Home - iRez, Solutions Informatiques'; ?>
-      
+
 <?php ob_start(); ?>        
 <main role="main">
     <article>
@@ -24,7 +24,7 @@
                 </div>
             </div>
         </section>
-    
+
         <section class="text-center" id="services">
             <h2 class="py-4">Nous vous proposons tous types de services et conseils en informatique</h2>
             <ul class="list-unstyled">
@@ -44,7 +44,6 @@
     </article> 
 </main>   
 <?php $content = ob_get_clean(); ?>
-        
+
 <?php require('templateView.php') ?>
 
-        
