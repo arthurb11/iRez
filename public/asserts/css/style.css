@@ -4,9 +4,11 @@ body{
     font-family: 'Comfortaa', sans-serif;
 }
 
+/*
 section {
-    text-align: center;
+text-align: center;
 }
+*/
 
 .no-padding-nav {
     padding-right: 0;
@@ -39,7 +41,7 @@ p {
 #contact-header{
     display: block;
     height: 35px;
-/*    font-family: 'Chakra Petch', sans-serif;*/
+    /*    font-family: 'Chakra Petch', sans-serif;*/
     font-size: 75%;
 }
 
@@ -83,6 +85,9 @@ a.nav-item:before, a.nav-item:after {
 
 a.nav-item.effect-1 {
     padding-top: 10px;
+}
+a.nav-item.effect-1:focus  {
+    color: cadetblue !important;
 }
 
 
@@ -173,11 +178,19 @@ a.nav-item.effect-1.dropdown.active:hover:before {
 
 /* TARIFS */
 
-
+#tarifs{
+    margin-top: 200px;
+}
 
 /* CONTACT */
 
+#contact button{
+    width: 100%;
+}
 
+#contact h1{
+    margin-top: 200px;
+}
 
 /* FOOTER */
 
@@ -225,7 +238,7 @@ button.navbar-toggler.bg-dark {
 
 @media screen and (max-width: 1300px) {
 
- 
+
     /*accueil carousel*/
     #presentation p {
         padding: 20px 20px; 
@@ -243,7 +256,7 @@ button.navbar-toggler.bg-dark {
 
     /*accueil carousel*/
     #presentation p {
-       padding: 20px 20px;
+        padding: 20px 20px;
     }
 }
 
@@ -265,7 +278,7 @@ button.navbar-toggler.bg-dark {
     #presentation p {
         font-size: 30px;
         top: 400px;
-     }
+    }
 
 }
 /*****************/
@@ -329,7 +342,7 @@ button.navbar-toggler.bg-dark {
     p {
         letter-spacing: 0.5px;
     }
-    
+
     #services {
         padding-top: 15px;
     }
