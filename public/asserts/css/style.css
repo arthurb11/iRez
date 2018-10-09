@@ -86,10 +86,6 @@ a.nav-item:before, a.nav-item:after {
 a.nav-item.effect-1 {
     padding-top: 10px;
 }
-a.nav-item.effect-1:focus  {
-    color: cadetblue !important;
-}
-
 
 a.nav-item.effect-1:before {
     left: 0;
@@ -102,17 +98,29 @@ a.nav-item.effect-1:before {
 a.nav-item.effect-1:hover:before {
     transform: scaleX(1);
 }
-a.nav-item.effect-1:focus  {
-    color: cadetblue !important;
-}
-a.nav-item.effect-1.dropdown.active {
-    border-bottom: solid 1.5px cadetblue;
-}
+
 a.nav-item.effect-1.dropdown.active:hover:before {
     background: none;
     transform: none;
+    transition: none;
+    content: none;
+    display: none;
 }
 
+a.nav-item.effect-1:focus  {
+    color: cadetblue !important;
+}
+
+a.active:hover {
+    text-decoration: none;
+}
+
+a.active {
+    border-bottom: solid 1.5px cadetblue;
+    color: white;
+    margin-top: 0.6rem;
+    font-size: unset;
+}
 
 /* ACCUEIL */
 

@@ -25,11 +25,17 @@
                             <span class="navbar-toggler-icon"></span>
                         </button>
                         
+                        <!-- ces 2 lignes de php pour creer une variable page qui contiendra 
+                        l'URL de la page courante pour y inserer la classe active (on va pas creer un 
+                        controller pour ça) -->
+                        <?php $page = $_SERVER['REQUEST_URI']; $page = str_replace("/irez.fr/", "", $page); ?>
+                        <!--*********************************************************************************** -->
+                        
                         <div class="collapse navbar-collapse text-uppercase justify-content-end" id="navbarNavAltMarkup">
-                            <div class="nav navbar-nav square">
-                                <a class="nav-item nav-link text-white effect-1 dropdown active" href="/">Accueil<span class="sr-only">(current)</span></a> 
-                                <a class="nav-item nav-link text-white effect-1 dropdown" href="tarifs">Tarifs</a>
-                                <a class="nav-item nav-link text-white effect-1 dropdown" href="contact">Contact</a>
+                            <div class="navbar-nav square">
+                                <a <?php if($page == "/"){echo 'class="active"';} ?> class="nav-item nav-link text-white effect-1 dropdown" href="/">Accueil<span class="sr-only">(current)</span></a>
+                                <a <?php if($page == "/tarifs"){echo 'class="active"';} ?> class="nav-item nav-link text-white effect-1 dropdown" href="tarifs">Tarifs</a>
+                                <a <?php if($page == "/contact"){echo 'class="active"';} ?> class="nav-item nav-link text-white effect-1 dropdown" href="contact">Contact</a>
                             </div>
                         </div>
                     </nav>
