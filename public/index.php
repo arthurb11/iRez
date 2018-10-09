@@ -19,10 +19,10 @@ if(empty($elements[0])) {                       // No path elements means home
         require '../view/tarifsView.php';
         break;
     case 'contact':
-        require '../view/contactView.php';
+        require '../controller/contactController.php';
         break;
-    case 'contactView.php':
-        require '../view/contactView.php';
+    case 'contactController.php':
+        require '../controller/contactController.php';
         break;
     default:
         require '../view/404View.php';

@@ -201,7 +201,16 @@ a.active {
 }
 
 div#contact_div.row {
-    margin: 0.3em;
+    margin: 0.4em;
+}
+
+em#champ_obligatoire {
+    margin: 1px;
+    font-size: 12px;
+}
+#etoile {
+    margin: 2px;
+    font-size: 18px;
 }
 
 /* FOOTER */

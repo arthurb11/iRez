@@ -76,7 +76,7 @@
         <div class="container-fluid bg-dark text-white pt-3">
             <div class="row">
                 <div class="col-md-6">
-                    <p>iRez 2018 | Tous droits réservés</p>
+                    <p>iRez 2018 | Tous droits réservés ©</p>
                 </div>
                 <div class="col-md-6 text-right">
                     <ul class="list-inline">
