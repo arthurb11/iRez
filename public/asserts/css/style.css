@@ -200,6 +200,10 @@ a.active {
     margin-top: 200px;
 }
 
+div#contact_div.row {
+    margin: 0.3em;
+}
+
 /* FOOTER */
 
 footer{
