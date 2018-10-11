@@ -45,7 +45,7 @@
                         <div class="text-right text-white">
                             <ul class="list-inline pt-2" id="contact-ul">
                                 <li class="list-inline-item"><i class="fas fa-phone"></i></li>
-                                <li class="list-inline-item">07 00 00 00 00</li>
+                                <li class="list-inline-item">06 36 48 38 29</li>
                                 <li class="list-inline-item">|</li>
                                 <li class="list-inline-item"><i class="fas fa-envelope"></i></li>
                                 <li class="list-inline-item">irez@gmail.com</li>
@@ -69,7 +69,7 @@
         <div class="container-fluid bg-anthra">
             <div class="text-center text-white py-2">
                 <a class="py-2" href="contact"><i class="fas fa-envelope pt-2"></i></a>
-                <p class="pt-3">07 00 00 00 00 | irez@gmail.com</p>
+                <p class="pt-3">06 36 48 38 29 | irez@gmail.com</p>
                 <p>240 Chemin Saint Martin 13420 Gémenos</p>
             </div>
         </div>

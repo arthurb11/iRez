@@ -6,7 +6,7 @@ body{
 
 /*
 section {
-text-align: center;
+    text-align: center;
 }
 */
 
@@ -213,6 +213,10 @@ em#champ_obligatoire {
     font-size: 18px;
 }
 
+#tel_input:valid {
+    border-color: none !important;
+}
+
 /* FOOTER */
 
 footer{
@@ -234,6 +238,8 @@ footer a, footer a:hover{
     text-decoration: none;
     color: #fff;
 }
+
+/* 404 */
 
 /* Mentions légales */
 /* Données personnelles */
