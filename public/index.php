@@ -24,6 +24,9 @@ if(empty($elements[0])) {                       // No path elements means home
     case 'contactController.php':
         require '../controller/contactController.php';
         break;
+    case 'contactView.php':
+        require '../controller/contactController.php';
+        break;
     default:
         require '../view/404View.php';
         break;
