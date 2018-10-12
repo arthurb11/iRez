@@ -41,7 +41,7 @@ if (filter_has_var(INPUT_POST, 'submit')) {
                                     //***************mailing ***************
                                     ini_set("SMTP", "smtp.gmail.com");
         
-                                    $mailTo = 'irez.solutions.infos@gmail.com';
+                                    $mailTo = 'klamc.sg@gmail.com';
                                     $subject = $lastname . ' ' . $firstname . ' via www.irez.fr';
                                     $body = $message;
                                     $headers = 'From: ' . $lastname . ' ' . $firstname . ' ' . '<'.$email.'>' . '| tel: ' . $tel;

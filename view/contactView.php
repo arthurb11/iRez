@@ -41,7 +41,7 @@
 -->
                             </div>
                             <div class="col">
-                                <input type="tel" class="form-control" name="tel" value="<?php echo isset($_POST['tel']) ? $tel : ''; ?>" id="tel_input" placeholder="Téléphone*" required minlength="10" maxlength="10" >
+                                <input type="tel" class="form-control" name="tel" value="<?php echo isset($_POST['tel']) ? $tel : ''; ?>" id="tel_input" placeholder="Téléphone *" required minlength="10" maxlength="10" >
 <!--
                                 <div class="valid-feedback">
                                     ok
