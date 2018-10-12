@@ -1,5 +1,3 @@
-
-
 /* validation personnalisée de formulaire */ 
 var email = document.getElementById("mail");
 
