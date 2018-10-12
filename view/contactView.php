@@ -24,8 +24,8 @@
                             </div> 
                         </div>
                         <div class="my-3">
-                                <input type="email" class="form-control" name="email" placeholder="votreEmail@exemple.fr*">
-                            </div>
+                            <input type="email" class="form-control" name="email" placeholder="votreEmail@exemple.fr*">
+                        </div>
                         <div class="my-3">
                             <textarea class="form-control" rows="10" name="content" placeholder="Tapez votre message ici...*"></textarea>
                         </div>

@@ -116,7 +116,7 @@ a.active:hover {
 }
 
 a.active {
-    border-bottom: solid 1.5px cadetblue;
+    border-bottom: solid 3px cadetblue;
     color: white;
     margin-top: 0.6rem;
     font-size: unset;

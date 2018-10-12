@@ -70,7 +70,7 @@
             <div class="text-center text-white py-2">
                 <a class="py-2" href="contact"><i class="fas fa-envelope pt-2"></i></a>
                 <p class="pt-3">07 00 00 00 00 | irez@gmail.com</p>
-                <p>240 Chemin Saint Martin 13420 Gémenos</p>
+                <p>240 chemin de Saint Martin 13420 Gémenos</p>
             </div>
         </div>
         <div class="container-fluid bg-dark text-white pt-3">
