@@ -1,7 +1,13 @@
 /* GENERAL */
+@import url(https://fonts.googleapis.com/css?family=Raleway:700); /* police page 404*/
 
 body{
     font-family: 'Comfortaa', sans-serif;
+}
+
+
+#contact h1, #mentions_legales h1, #tarifs h1{
+    margin-top: 200px;
 }
 
 /*
@@ -187,9 +193,8 @@ a.active {
 
 /* TARIFS */
 
-#tarifs{
-    margin-top: 200px;
-}
+
+
 
 /* CONTACT */
 
@@ -197,9 +202,7 @@ a.active {
     width: 100%;
 }
 
-#contact h1{
-    margin-top: 200px;
-}
+
 
 div#contact_div.row {
     margin: 0.4em;
@@ -241,6 +244,47 @@ footer a, footer a:hover{
 }
 
 /* 404 */
+
+
+
+.text-wrapper_404 {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.title_404 {
+  font-size: 6em;
+  font-weight: 700;
+  color: #EE4B5E;
+}
+
+.subtitle_404 {
+  font-size: 40px;
+  font-weight: 700;
+  color: cadetblue;
+}
+
+.buttons_404 {
+  margin: 30px;
+}
+.buttons_404 a.button_404 {
+  font-weight: 700;
+  border: 2px solid #EE4B5E;
+  text-decoration: none;
+  padding: 15px;
+  text-transform: uppercase;
+  color: #EE4B5E;
+  border-radius: 26px;
+  transition: all 0.2s ease-in-out;
+}
+.buttons_404 a.button_404:hover {
+  background-color: #EE4B5E;
+  color: white;
+  transition: all 0.2s ease-in-out;
+}
 
 /* Mentions légales */
 /* Données personnelles */

@@ -27,6 +27,18 @@ if(empty($elements[0])) {                       // No path elements means home
     case 'contactView.php':
         require '../controller/contactController.php';
         break;
+    case 'mentions-legales':
+        require '../view/mentionsLegalesView.php';
+        break;
+    case 'mentionsLegalesView.php':
+        require '../view/mentionsLegalesView.php';
+        break;
+    case 'policyView.php':
+        require '../view/policyView.php';
+        break;
+    case 'policy':
+        require '../view/policyView.php';
+        break;
     default:
         require '../view/404View.php';
         break;

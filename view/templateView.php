@@ -1,6 +1,18 @@
 <!doctype html>
 <html lang="en">
     <head>
+        <!-- Begin Cookie Consent plugin by Silktide - http://silktide.com/cookieconsent -->
+
+<!-- Begin Cookie Consent plugin by Silktide - http://silktide.com/cookieconsent -->
+<script type="text/javascript">
+    window.cookieconsent_options = {"message":"Ce site web utilise les cookies pour assurer le meilleur fonctionnement du site.","dismiss":"Compris!","learnMore":"Plus d'infos","link":"/policy","theme":"light-floating"};
+</script>
+
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/1.0.10/cookieconsent.min.js"></script>
+<!-- End Cookie Consent plugin -->
+
+
+
         <!-- Required meta tags -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -48,7 +60,7 @@
                                 <li class="list-inline-item">06 36 48 38 29</li>
                                 <li class="list-inline-item">|</li>
                                 <li class="list-inline-item"><i class="fas fa-envelope"></i></li>
-                                <li class="list-inline-item">irez@gmail.com</li>
+                                <li class="list-inline-item">irez.solutions.info@gmail.com</li>
                             </ul>
                         </div>
                     </div>
@@ -69,7 +81,7 @@
         <div class="container-fluid bg-anthra">
             <div class="text-center text-white py-2">
                 <a class="py-2" href="contact"><i class="fas fa-envelope pt-2"></i></a>
-                <p class="pt-3">06 36 48 38 29 | irez@gmail.com</p>
+                <p class="pt-3">06 36 48 38 29 | irez.solutions.info@gmail.com</p>
                 <p>240 Chemin Saint Martin 13420 Gémenos</p>
             </div>
         </div>
@@ -80,11 +92,13 @@
                 </div>
                 <div class="col-md-6 text-right">
                     <ul class="list-inline">
-                        <li class="list-inline-item"><a href="#">Mentions légales</a></li>
+                        <li class="list-inline-item"><a href="/mentions-legales">Mentions légales</a></li>
                         <li class="list-inline-item">|</li>
-                        <li class="list-inline-item"><a href="#">Données personnelles</a></li>
+                        <li class="list-inline-item"><a href="/policy">Données personnelles</a></li>
                         <li class="list-inline-item">|</li>
-                        <li class="list-inline-item"><a href="#">Plan du site</a></li>
+                        <li class="list-inline-item"><a href="/">Accueil</a></li>
+                        <li class="list-inline-item"><a href="tarifs">Tarifs</a></li>
+                        <li class="list-inline-item"><a href="contact">Contact</a></li>
                     </ul>
                 </div>
             </div>

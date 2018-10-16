@@ -23,30 +23,15 @@
                                     <div class="invalid-feedback">
                                         Veuillez entrer votre nom <ul><li>3 caractères minimum</li><li>pas de caractères spéciaux</li></ul>
                                     </div>
-<!--
-                                <div class="valid-feedback">
-                                    ok
-                                </div>
--->
                             </div>
                             <div class="col">
                                 <input type="text" class="form-control" name="first_name" placeholder="Prénom *" value="<?php echo isset($_POST['first_name']) ? $firstname : ''; ?>" required minlength="3" maxlength="15">
                                     <div class="invalid-feedback">
                                         Veuillez entrer votre prenom <ul><li>3 caractères minimum</li><li>pas de caractères spéciaux</li></ul>
                                     </div>
-<!--
-                                <div class="valid-feedback">
-                                    ok
-                                </div>
--->
                             </div>
                             <div class="col">
                                 <input type="tel" class="form-control" name="tel" value="<?php echo isset($_POST['tel']) ? $tel : ''; ?>" id="tel_input" placeholder="Téléphone *" required minlength="10" maxlength="10" >
-<!--
-                                <div class="valid-feedback">
-                                    ok
-                                </div>
--->
                                 <div class="invalid-feedback">
                                     Veuillez entrer votre numéro de téléphone
                                 </div>
@@ -54,19 +39,22 @@
                         </div>
                         <div class="my-3">
                             <input type="email" class="form-control" id="mail "name="email" value="<?php echo isset($_POST['email']) ? $email : ''; ?>" placeholder="votreEmail@exemple.fr *" required>
-<!--
-                            <div class="valid-feedback">
-                                ok
-                            </div>
--->
                             <div class="invalid-feedback">
                                 Veuillez entrer un mail valide
                             </div>
                         </div>
                         <div class="my-3">
-                            <textarea class="form-control" rows="11" name="content" value="<?php echo isset($_POST['content']) ? $message : ''; ?>" placeholder="Tapez votre message ici... *" required></textarea>
+                            <textarea class="form-control" rows="9" name="content" value="<?php echo isset($_POST['content']) ? $message : ''; ?>" placeholder="Tapez votre message ici... *" required></textarea>
                             <div class="invalid-feedback">
                                 Veuillez taper votre message
+                            </div>
+                        </div>
+                        <div class="form-check">
+                            
+                            <input type="checkbox" class="form-check-input" name="policy" required>
+                            <label for="checkbox" class="form-check-label mb-3">J’ai lu la <a href="/policy">politique de confidentialité</a> de ce site internet et accepte d’être recontacté</label>
+                            <div class="invalid-feedback">
+
                             </div>
                         </div>
                         <div class="mx-auto">
