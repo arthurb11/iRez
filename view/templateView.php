@@ -78,7 +78,7 @@
 
 
     <footer>
-        <div class="container-fluid bg-anthra">
+        <div class="container-fluid bg-anthra" id="footer">
             <div class="text-center text-white py-2">
                 <a class="py-2" href="contact"><i class="fas fa-envelope pt-2"></i></a>
                 <p class="pt-3">06 36 48 38 29 | irez.solutions.info@gmail.com</p>
