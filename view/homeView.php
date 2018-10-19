@@ -26,7 +26,7 @@
         </section>
 
         <section class="text-justify" id="services">
-            <h2 class="py-4">Nous vous proposons tous types de services et conseils en informatique</h2>
+            <h2 class="py-4 text-center">Nous vous proposons tous types de services et conseils en informatique</h2>
             <!-- <ul class="list-unstyled">
                 <li class="py-2">Dépannage tout support Windows et MacOs (PC portable, unité centrale, téléphone portable, tablette ...)</li>
                 <li class="py-2">Dépannage en atelier et à domicile</li>
