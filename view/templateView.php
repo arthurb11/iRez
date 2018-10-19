@@ -32,7 +32,7 @@
             <div class="row">
                 <div class="col-12 no-padding-nav">
                     <nav class="nav navbar navbar-expand-lg navbar-light bg-anthra">  
-                        <a class="navbar-brand text-white py-3" href="#"><img class="img-fluid logonav" src="asserts/img/logo-test5.png" alt="..."></a>
+                        <a class="navbar-brand text-white py-3" href="/"><img class="img-fluid logonav" src="asserts/img/logo-test5.png" alt="..."></a>
                         <button class="navbar-toggler bg-dark " type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
