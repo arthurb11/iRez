@@ -36,8 +36,14 @@ if(empty($elements[0])) {                       // No path elements means home
     case 'policyView.php':
         require '../view/policyView.php';
         break;
-    case 'policy':
+    case 'politique-de-confidentialite':
         require '../view/policyView.php';
+        break;
+    case 'planView.php':
+        require '../view/planView.php';
+        break;
+    case 'plan-du-site':
+        require '../view/planView.php';
         break;
     default:
         require '../view/404View.php';
