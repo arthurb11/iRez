@@ -4,7 +4,7 @@
 <?php ob_start(); ?>        
 <main role="main">
     <section id="contact">
-        <h1 class="text-center">Me contacter</h1>
+        <h2 class="py-4 m-5 text-center text-uppercase">Nous contacter</h2>
         <div class="container-fluid">
         
             <div class="row" id="contact_div">

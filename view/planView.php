@@ -3,7 +3,7 @@
 <?php ob_start(); ?>        
     <main role="main">
         <div class="container">
-            <h1 class="text-center">Plan du site</h1>
+            <h2 class="py-4 m-5 text-center text-uppercase">Plan du site</h2>
             <ul>
                 <li><a href="/">Accueil</a></li>
                 <li><a href="/tarifs">Tarifs</a></li>

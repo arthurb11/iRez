@@ -4,7 +4,7 @@
     <main role="main">
         <section id="mentions_legales">
             <div class="container">
-            <h1 class="text-center">Nos mentions légales</h1><br />
+            <h2 class="py-4 m-5 text-center text-uppercase">Nos mentions légales</h2><br />
             <p class="text-left">Merci de lire attentivement les présentes 
                 modalités d'utilisation du présent site avant de le parcourir. <br /> 
                 En vous connectant sur ce site, vous acceptez sans réserve les présentes modalités.
