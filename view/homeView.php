@@ -46,7 +46,7 @@
 
                     <div class="blog-card alt">
                         <div class="meta">
-                            <div class="photo" style="background-image: url(img/2.png)"></div>
+                            <div class="photo" style="background-image: url('asserts/img/2.png')"></div>
                         </div>
                         <div class="description">
                             <h1>Conseils personnalisés</h1>
@@ -60,7 +60,7 @@
 
                     <div class="blog-card">
                         <div class="meta">
-                            <div class="photo" style="background-image: url(img/3.jpg)"></div>
+                            <div class="photo" style="background-image: url('asserts/img/3.jpg')"></div>
                         </div>
                         <div class="description">
                             <h1>Montage unité centrale</h1>
@@ -74,7 +74,7 @@
 
                     <div class="blog-card alt">
                         <div class="meta">
-                            <div class="photo" style="background-image: url(img/4.png)"></div>
+                            <div class="photo" style="background-image: url('asserts/img/4.png')"></div>
                         </div>
                         <div class="description">
                             <h1>Installation et nettoyage du systeme d'exploitation</h1>
@@ -88,7 +88,7 @@
 
                     <div class="blog-card">
                         <div class="meta">
-                            <div class="photo" style="background-image: url(img/5.jpg)"></div>
+                            <div class="photo" style="background-image: url('asserts/img/5.jpg')"></div>
                         </div>
                         <div class="description">
                             <h1>Amélioration des performances de votre machine</h1>
@@ -102,7 +102,7 @@
 
                     <div class="blog-card alt">
                         <div class="meta">
-                            <div class="photo" style="background-image: url(img/6.jpg)"></div>
+                            <div class="photo" style="background-image: url('asserts/img/6.jpg')"></div>
                         </div>
                         <div class="description">
                             <h1>Récupération et sauvegarde de données </h1>
