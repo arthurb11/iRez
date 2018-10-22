@@ -4,7 +4,7 @@
     <main role="main">
         <section id="policy">
             <div class="container">
-                <h1 class="text-center" id="policy_h1">Notre politique de confidentialité</h1><br />
+                <h2 class="py-4 m-5 text-center text-uppercase" id="policy_h1">Notre politique de confidentialité</h2><br />
                 <h4 class="text-left">> Identité et coordonnées du responsable du traitement</h4>
                 <p style="text-align:left"></p>
                 <p style="text-align:left">Identité et coordonnées du responsable du traitement: Mathieu Delclos 240 chemin St Martin 13420 Gémenos</p>

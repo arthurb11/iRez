@@ -94,11 +94,9 @@
                     <ul class="list-inline">
                         <li class="list-inline-item"><a href="/mentions-legales">Mentions légales</a></li>
                         <li class="list-inline-item">|</li>
-                        <li class="list-inline-item"><a href="/policy">Données personnelles</a></li>
+                        <li class="list-inline-item"><a href="/politique-de-confidentialite">Politique de confidentialité</a></li>
                         <li class="list-inline-item">|</li>
-                        <li class="list-inline-item"><a href="/">Accueil</a></li>
-                        <li class="list-inline-item"><a href="tarifs">Tarifs</a></li>
-                        <li class="list-inline-item"><a href="contact">Contact</a></li>
+                        <li class="list-inline-item"><a href="/plan-du-site">Plan du site</a></li>
                     </ul>
                 </div>
             </div>

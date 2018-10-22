@@ -3,15 +3,15 @@
 
 <?php ob_start(); ?>        
 <main id="tarifs" role="main">
-    <h1 class="text-center text-uppercase">Les tarifs</h1>
     <section>
         <div class="container">
+            <h2 class="py-4 m-5 text-center text-uppercase" style="margin-top: 180px !important;">Nos tarifs</h2>
             <div class="col-12">
-                <h2 class="text-center mt-5">Chez vous</h2>
+                <h2 class="text-center mt-3">Chez vous</h2>
                 <table class="table table-dark">
                     <thead>
                         <tr>
-                            <th colspan="2" class="text-uppercase text-center">Sur site</th>
+                            <th colspan="2" class="text-uppercase text-center">Sur place</th>
                             <!--                        <th scope="col" class="text-right text-uppercase">Tarifs</th>-->
                         </tr>
                     </thead>
@@ -35,7 +35,7 @@
                     </tbody>
                     <thead>
                         <tr>
-                            <th colspan="2" class="text-uppercase text-center">Déplacement</th>
+                            <th colspan="2" class="text-uppercase text-center">+ Déplacement</th>
                             <!--                        <th scope="col" class="text-right text-uppercase">Tarifs</th>-->
                         </tr>
                     </thead>
