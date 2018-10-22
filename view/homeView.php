@@ -15,14 +15,13 @@
                             </div>
                         </div>
                         <div id="presentation">
-                                <div class="text-center text-white">
-                                    <h1 class="text-uppercase">Solutions Informatiques</h1>
-                                    <hr />
-                                    <p class="text-md-center">Spécialisé depuis plus de 10 ans dans le domaine informatique, nous vous proposons des services en <strong>atelier ainsi qu'à domicile</strong>. <br />
-                                    Dépannage de votre machine, assemblage de votre nouveau PC, sauvegarde de vos données, installation réseau... <strong><br /><br />Nous répondrons à tous vos besoins.</strong><br /><br />
-                                    <a href="#services" class="btn btn-primary m-3">Continuer</a>
-                                </div>
+                            <div class="text-center text-white">
+                                <h1 class="text-uppercase">Solutions Informatiques</h1>
+                                <p class="text-md-center">Spécialisé depuis plus de 10 ans dans le domaine informatique, nous vous proposons des services en <strong>atelier ainsi qu'à domicile</strong>. <br />
+                                Dépannage de votre machine, assemblage de votre nouveau PC, sauvegarde de vos données, installation réseau... <strong><br /><br />Nous répondrons à tous vos besoins.</strong><br /><br />
+                                <a href="#services" class="btn btn-primary m-3">Continuer</a>
                             </div>
+                        </div>
                     </div>
                 </div>
             </div>

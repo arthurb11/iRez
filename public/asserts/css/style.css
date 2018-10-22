@@ -42,7 +42,6 @@ p {
 #contact-header{
     display: block;
     height: 35px;
-    /*    font-family: 'Chakra Petch', sans-serif;*/
     font-size: 75%;
 }
 
@@ -144,25 +143,19 @@ a.active {
 
 #presentation h1{
     position: absolute;
-    /* z-index: -450;   */
     top: 30%;
     left: 0;
     right: 0;
     margin-left: auto;
     margin-right: auto;
-    width: 100%;
+    border-bottom: white solid 0.5px;
+    width: 65%;
+    padding-bottom: 2%;
 }
 
-hr {
-    position: relative;
-    top: -550px;
-    background-color: white;
-    width: 70%;
-}
 
 #presentation p{
     position: absolute;
-    /* z-index: -450;   */
     top: 45%;
     left: 0;
     right: 0;
