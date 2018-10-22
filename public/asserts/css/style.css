@@ -4,6 +4,7 @@
 
 body{
     font-family: 'Comfortaa', sans-serif;
+    background-color: rgb(223, 223, 223);
 }
 
 
@@ -267,10 +268,7 @@ a.active {
     position: relative;
     z-index: 1;
   }
-  .blog-card .description h1,
-  .blog-card .description h2 {
-    font-family: Poppins, sans-serif;
-  }
+  
   .blog-card .description h1 {
     line-height: 1;
     margin: 0;
