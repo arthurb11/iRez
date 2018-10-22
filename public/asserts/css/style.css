@@ -11,12 +11,6 @@ body{
     margin-top: 180px;
 }
 
-/*
-section {
-
-    text-align: center;
-}
-*/
 
 .no-padding-nav {
     padding-right: 0;
@@ -330,8 +324,6 @@ a.active {
 #contact button{
     width: 100%;
 }
-
-
 
 div#contact_div.row {
     margin: 0.4em;
