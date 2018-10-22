@@ -28,11 +28,11 @@
         </section>
 
         <section class="text-left" id="services">
-            
+        
                     <h2 class="py-4 m-5 text-center text-uppercase">Services et conseils en informatique</h2>
                     <div class="blog-card">
                         <div class="meta">
-                            <div class="photo" style="background-image: url(img/1.png)"></div>
+                            <div class="photo" style="background-image: url('asserts/img/1.png')"></div>
                         </div>
                         <div class="description">
                             <h1>Dépannage tout support</h1>
