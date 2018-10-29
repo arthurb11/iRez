@@ -3,18 +3,6 @@
 require('../model/contactRepository.php');
 
 
-//ici les requetes 
-
-
-/*********** essai de mailing raté ***********/ 
-// $message = $_POST['content'];
-// $headers = 'FROM: klamc.sg@gmail.com';
-
-// mail('klamc.sg@gmail.com', 'formulaire de contact' , $message, $headers);
-/***********/ 
-
-
-
 $error = '';
 $error_class = '';
 
@@ -25,13 +13,14 @@ if (filter_has_var(INPUT_POST, 'submit')) {
     $firstname = htmlspecialchars($_POST['first_name']);
     $tel = htmlspecialchars($_POST['tel']);
     $email = htmlspecialchars($_POST['email']);
-    $message = htmlspecialchars($_POST['content']);
+    $message = htmlspecialchars($_POST['message']);
+    $check = $_POST['policy'];
     
     $rgx_name = '/[^A-Za-zÀÁÂÃÄÅÇÈÉÊËÌÍÎÏÒÓÔÕÖÙÚÛÜÝàáâãäåçèéêëìíîïðòóôõöùúûüýÿ]/'; 
     $rgx_tel = '/[^0[1-9][0-9]{8}]/';
 
-    if (isset($lastname) AND isset($firstname) AND isset($tel) AND isset($email) AND isset($message)) {
-        if (!empty($lastname) AND !empty($firstname) AND isset($tel) AND !empty($email) AND !empty($message)) {
+    if (isset($lastname) AND isset($firstname) AND isset($tel) AND isset($email) AND isset($message) AND isset($check))  {
+        if (!empty($lastname) AND !empty($firstname) AND isset($tel) AND !empty($email) AND !empty($message) AND !empty($check)) {
             if (strlen($lastname) > 2 OR strlen($firstname) > 2){
                 if (!preg_match($rgx_name, $lastname)){
                     if (!preg_match($rgx_name, $firstname)) {

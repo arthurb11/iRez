@@ -1,4 +1,4 @@
-<?php $title = 'Me contacter - iRez, Solutions Informatiques'; ?>
+<?php $title = 'Nous contacter - iRez, Solutions Informatiques'; ?>
 
 <?php ob_start(); ?>        
 <main role="main">
@@ -15,46 +15,28 @@
                 <?php if ($error != ''): ?>
                     <div class="alert <?php echo $error_class; ?>"> <?php echo $error; ?> </div>
                 <?php endif; ?>
-                    <form action="<?php $_SERVER['PHP_SELF']; ?>" method="post" class="needs-validation" novalidate>
+                    <form action="<?php $_SERVER['PHP_SELF']; ?>" method="post" class="was-validated" novalidate>
                         <div class="form-row">
                             <div class="col">
-                                <input type="text" class="form-control" name="name" placeholder="Nom *" value="<?php echo isset($_POST['name']) ? $_POST['name'] : ''; ?>" required minlength="3" maxlength="15">
-                                <div class="invalid-feedback">
-                                    Veuillez entrer votre nom <ul><li>3 caractères minimum</li><li>pas de caractères spéciaux</li></ul>
-                                </div>
+                                <input type="text" class="form-control" name="name" placeholder="Nom" value="<?php echo isset($_POST['name']) ? $_POST['name'] : ''; ?>" required minlength="3" maxlength="15">
                             </div>
                             <div class="col">
-                                <input type="text" class="form-control" name="first_name" placeholder="Prénom *" value="<?php echo isset($_POST['first_name']) ? $firstname : ''; ?>" required minlength="3" maxlength="15">
-                                <div class="invalid-feedback">
-                                    Veuillez entrer votre prenom <ul><li>3 caractères minimum</li><li>pas de caractères spéciaux</li></ul>
-                                </div>
+                                <input type="text" class="form-control" name="first_name" placeholder="Prénom" value="<?php echo isset($_POST['first_name']) ? $firstname : ''; ?>" required minlength="3" maxlength="15">
                             </div>
                             <div class="col">
-                                <input type="tel" class="form-control" name="tel" value="<?php echo isset($_POST['tel']) ? $tel : ''; ?>" id="tel_input" placeholder="Téléphone *" required minlength="10" maxlength="10" >
-                                <div class="invalid-feedback">
-                                    Veuillez entrer votre numéro de téléphone
-                                </div>
+                                <input type="tel" class="form-control" name="tel" value="<?php echo isset($_POST['tel']) ? $tel : ''; ?>" id="tel_input" placeholder="n° tél" required minlength="10" maxlength="10">
                             </div> 
                         </div>
                         <div class="my-3">
-                            <input type="email" class="form-control" id="mail "name="email" value="<?php echo isset($_POST['email']) ? $email : ''; ?>" placeholder="votreEmail@exemple.fr *" required>
-                            <div class="invalid-feedback">
-                                Veuillez entrer un mail valide
-                            </div>
+                            <input type="email" class="form-control" id="mail "name="email" value="<?php echo isset($_POST['email']) ? $email : ''; ?>" placeholder="mail@domaine.fr" required>
                         </div>
                         <div class="my-3">
-                            <textarea class="form-control" rows="9" name="content" value="<?php echo isset($_POST['content']) ? $message : ''; ?>" placeholder="Tapez votre message ici... *" required></textarea>
-                            <div class="invalid-feedback">
-                                Veuillez taper votre message
-                            </div>
+                            <textarea class="form-control" rows="9" style="resize:none;" name="message" value="<?php echo isset($_POST['message']) ? $message : ''; ?>" placeholder="Tapez votre message ici..." required></textarea>
                         </div>
+                        
                         <div class="form-check">
-                            
                             <input type="checkbox" class="form-check-input" name="policy" required>
-                            <label for="checkbox" class="form-check-label mb-3">J’ai lu la <a href="/policy">politique de confidentialité</a> de ce site internet et accepte d’être recontacté</label>
-                            <div class="invalid-feedback">
-
-                            </div>
+                            <label for="policy" class="form-check-label mb-3">J’ai lu la <a href="/policy">politique de confidentialité</a> de ce site internet et accepte d’être recontacté</label>  
                         </div>
                         <div class="mx-auto">
                             <button type="submit" name="submit" class="btn btn-primary">Envoyer</button>
