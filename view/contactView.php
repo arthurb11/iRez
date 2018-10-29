@@ -19,15 +19,15 @@
                         <div class="form-row">
                             <div class="col">
                                 <input type="text" class="form-control" name="name" placeholder="Nom *" value="<?php echo isset($_POST['name']) ? $_POST['name'] : ''; ?>" required minlength="3" maxlength="15">
-                                    <div class="invalid-feedback">
-                                        Veuillez entrer votre nom <ul><li>3 caractères minimum</li><li>pas de caractères spéciaux</li></ul>
-                                    </div>
+                                <div class="invalid-feedback">
+                                    Veuillez entrer votre nom <ul><li>3 caractères minimum</li><li>pas de caractères spéciaux</li></ul>
+                                </div>
                             </div>
                             <div class="col">
                                 <input type="text" class="form-control" name="first_name" placeholder="Prénom *" value="<?php echo isset($_POST['first_name']) ? $firstname : ''; ?>" required minlength="3" maxlength="15">
-                                    <div class="invalid-feedback">
-                                        Veuillez entrer votre prenom <ul><li>3 caractères minimum</li><li>pas de caractères spéciaux</li></ul>
-                                    </div>
+                                <div class="invalid-feedback">
+                                    Veuillez entrer votre prenom <ul><li>3 caractères minimum</li><li>pas de caractères spéciaux</li></ul>
+                                </div>
                             </div>
                             <div class="col">
                                 <input type="tel" class="form-control" name="tel" value="<?php echo isset($_POST['tel']) ? $tel : ''; ?>" id="tel_input" placeholder="Téléphone *" required minlength="10" maxlength="10" >
