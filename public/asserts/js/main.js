@@ -1,9 +1,5 @@
-$(document).ready(function(){
-  console.log('tg');
+$(document).ready(function() {
 
-
-
- 
-
-
+  
+  
 });

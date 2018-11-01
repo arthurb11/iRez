@@ -19,7 +19,7 @@
                                 <h1 class="text-uppercase">Solutions Informatiques</h1>
                                 <p class="text-md-center">Spécialisé depuis plus de 10 ans dans le domaine informatique, nous vous proposons des services en <strong>atelier ainsi qu'à domicile</strong>. <br />
                                 Dépannage de votre machine, assemblage de votre nouveau PC, sauvegarde de vos données, installation réseau... <strong><br /><br />Nous répondrons à tous vos besoins.</strong><br /><br />
-                                <a href="#services_scroll" class="btn btn-primary m-3">Continuer</a>
+                                <a href="#services" class="btn btn-primary m-3 js-scrollTo">Continuer</a>
                             </div>
                         </div>
                     </div>
@@ -27,8 +27,8 @@
             </div>
         </section>
 
-        <span class="ancres" id="services_scroll" ></span>
-        <section class="text-left" id="services">
+        <span class="ancres" id="services" ></span>
+        <section class="text-left" id="services_cards">
             <h2 class="py-4 m-5 text-center text-uppercase">Services et conseils en informatique</h2>
             <div class="blog-card">
                 <div class="meta">
