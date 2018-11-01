@@ -7,8 +7,11 @@ body{
     background-color: rgb(223, 223, 223);
 }
 
+.ancres{display: block; 
+    height: 137px; /*same height as header*/ 
+    margin-top: -137px; /*same height as header*/ visibility: hidden;}
 
-#contact h1, #mentions_legales h1, #tarifs h1, #policy_h1, #contact h2, #mentions_legales h2, #policy_h2 {
+#contact h1, #mentions_legales h1, #tarifs h1, #policy_h1, #contact h2, #mentions_legales h2, #policy_h2, #plan h2 {
     margin-top: 180px !important;
 }
 
@@ -139,6 +142,7 @@ a.active {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    
 }
 
 
@@ -150,7 +154,7 @@ a.active {
     margin-left: auto;
     margin-right: auto;
     border-bottom: white solid 0.5px;
-    width: 65%;
+    width: 55% !important;
     padding-bottom: 2%;
 }
 
@@ -167,8 +171,8 @@ a.active {
     padding: 20px 200px;
 }
 
-/*//// services */
 
+/*//// services */
 
 #services li{
     color: #000;
@@ -426,6 +430,10 @@ footer a, footer a:hover{
 /* Données personnelles */
 /* Cookies */
 /* Plan du site */
+
+#plan {
+    height: 60vh;
+}
 
 
 /* RESPONSIVE */

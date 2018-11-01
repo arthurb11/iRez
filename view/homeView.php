@@ -19,7 +19,7 @@
                                 <h1 class="text-uppercase">Solutions Informatiques</h1>
                                 <p class="text-md-center">Spécialisé depuis plus de 10 ans dans le domaine informatique, nous vous proposons des services en <strong>atelier ainsi qu'à domicile</strong>. <br />
                                 Dépannage de votre machine, assemblage de votre nouveau PC, sauvegarde de vos données, installation réseau... <strong><br /><br />Nous répondrons à tous vos besoins.</strong><br /><br />
-                                <a href="#services" class="btn btn-primary m-3">Continuer</a>
+                                <a href="#services_scroll" class="btn btn-primary m-3">Continuer</a>
                             </div>
                         </div>
                     </div>
@@ -27,6 +27,7 @@
             </div>
         </section>
 
+        <span class="ancres" id="services_scroll" ></span>
         <section class="text-left" id="services">
             <h2 class="py-4 m-5 text-center text-uppercase">Services et conseils en informatique</h2>
             <div class="blog-card">
@@ -38,7 +39,8 @@
                     <h2>Windows et Mac</h2>
                     <p>Nous réparons votre ordinateur quel que soit le support: PC portable, unité centrale, téléphone portable, tablette... <strong>Atelier et domicile</strong> </p>
                     <p class="read-more">
-                        <a href="#">Read More</a>
+                        <a href="/tarifs">Tarifs</a> |
+                        <a href="/contact">Nous contacter</a>
                     </p>
                 </div>
             </div>
@@ -52,7 +54,8 @@
                     <h2>Par mail ou telephone</h2>
                     <p>Pour un achat, une configuration, périphériques, gaming, musique assistée par ordinateur...etc</p>
                     <p class="read-more">
-                        <a href="#">Read More</a>
+                        <a href="/tarifs">Tarifs</a> |
+                        <a href="/contact">Nous contacter</a>
                     </p>
                 </div>
             </div>
@@ -66,7 +69,8 @@
                     <h2>Adapté à vos besoins</h2>
                     <p>Nous montons et assemblons votre ordinateur adapté à vos besoins: utilisation classique, gaming, M.A.O...</p>
                     <p class="read-more">
-                        <a href="#">Read More</a>
+                        <a href="/tarifs">Tarifs</a> |
+                        <a href="/contact">Nous contacter</a>
                     </p>
                 </div>
             </div>
@@ -80,7 +84,8 @@
                     <h2>Windows et Mac</h2>
                     <p></p>
                     <p class="read-more">
-                        <a href="#">Read More</a>
+                        <a href="/tarifs">Tarifs</a> |
+                        <a href="/contact">Nous contacter</a>
                     </p>
                 </div>
             </div>
@@ -94,7 +99,8 @@
                     <h2>Windows et Mac</h2>
                     <p></p>
                     <p class="read-more">
-                        <a href="#">Read More</a>
+                        <a href="/tarifs">Tarifs</a> |
+                        <a href="/contact">Nous contacter</a>
                     </p>
                 </div>
             </div>
@@ -108,7 +114,8 @@
                     <h2>(Serveur N.A.S.)</h2>
                     <p>Votre disque dur a grillé ou peine à fonctionner, nous pouvons essayer de récupérer vos données avant que votre disque dur ne grille!</p>
                     <p class="read-more">
-                        <a href="#">Read More</a>
+                        <a href="/tarifs">Tarifs</a> |
+                        <a href="/contact">Nous contacter</a>
                     </p>
                 </div>
             </div>

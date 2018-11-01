@@ -1,14 +1,9 @@
-(function() {
-    
-    'use strict';
-  
-        
-        
-  
+$(document).ready(function(){
+  console.log('tg');
 
-  });
+
 
  
 
 
-/* fin de validation personnalisée de formulaire*/ 
+});
