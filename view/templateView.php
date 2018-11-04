@@ -18,7 +18,7 @@
 
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-        <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Noto+Sans" rel="stylesheet">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
         <link rel="stylesheet" href="asserts/css/style.css">
         <title> <?= $title ?> </title>
@@ -30,7 +30,7 @@
             <div class="row">
                 <div class="col-12 no-padding-nav">
                     <nav class="nav navbar navbar-expand-lg navbar-light bg-anthra">  
-                        <a class="navbar-brand text-white py-3" href="/"><img class="img-fluid logonav" src="asserts/img/logo-test5.png" alt="..."></a>
+                        <a class="navbar-brand text-white py-3" href="/"><img class="img-fluid logonav" src="asserts/img/logo-test5.png" alt="logo"></a>
                         <button class="navbar-toggler bg-dark " type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>

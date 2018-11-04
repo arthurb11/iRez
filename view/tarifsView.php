@@ -5,14 +5,16 @@
 <main id="tarifs" role="main">
     <section>
         <div class="container">
-            <h2 class="py-4 m-5 text-center text-uppercase" style="margin-top: 180px !important;">Nos tarifs</h2>
+            <div class="text-center" style="margin: 30px;">
+                <h2 class="py-4 text-center text-uppercase" style="margin-top: 180px !important;">Grille des tarifs</h2>
+                <p>Nous réalisons les interventions à domicile (prix du service + frais de déplacement)<br/> et en atelier.</p>
+            </div>
             <div class="col-12">
-                <h2 class="text-center mt-3">Chez vous</h2>
-                <table class="table table-dark">
+                <h2 class="text-center mt-5 tarifs_h2"><i class="fas fa-home" style="margin-right: 10px;"></i>Chez vous </h2><hr/>
+                <table class="table table-hover table-dark">
                     <thead>
                         <tr>
-                            <th colspan="2" class="text-uppercase text-center">Sur place</th>
-                            <!--                        <th scope="col" class="text-right text-uppercase">Tarifs</th>-->
+                            <th colspan="2" class="text-uppercase text-center">Services</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -35,8 +37,7 @@
                     </tbody>
                     <thead>
                         <tr>
-                            <th colspan="2" class="text-uppercase text-center">+ Déplacement</th>
-                            <!--                        <th scope="col" class="text-right text-uppercase">Tarifs</th>-->
+                            <th colspan="2" class="text-uppercase text-center">+ Coût du Déplacement</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -54,35 +55,12 @@
                         </tr>
                     </tbody>
                 </table>
-                <!--
-<table class="table table-dark">
-<thead>
-<tr>
-<th scope="col" class="text-uppercase text-center">Déplacement</th>
-<th scope="col" class="text-right text-uppercase">Tarifs</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Moins de 10Km</td>
-<td class="text-right">5€</td>
-</tr>
-<tr>
-<td>Entre 10 et 20Km</td>
-<td class="text-right">10€</td>
-</tr>
-<tr>
-<td>Plus de 20Km</td>
-<td class="text-right">à partir de 15€</td>
-</tr>
-</tbody>
-</table>
--->
-                <p>Exemple: 15Km + 2H d'intervention = 10€ + 50€ + 50€ = 110€</p>
-                <small>*Intervention 1H Urgence : Horaires exceptionnels > 19H, Jours non ouvrés, Intervention sous 24H sous réserve de disponibilité.</small>
 
-                <h2 class="text-center mt-5">L'atelier</h2>
-                <table class="table table-dark">
+                <p>Exemple: 15Km + 2H d'intervention = 10€ + 50€ + 50€ = 110€ <br/>
+                <small>*Intervention 1H Urgence : Horaires exceptionnels > 19H, Jours non ouvrés, Intervention sous 24H sous réserve de disponibilité.</small></p>
+
+                <h2 class="text-center mt-5 tarifs_h2"><i class="fas fa-wrench" style="margin-right: 10px;"></i>L'atelier </h2><hr/>
+                <table class="table table-hover table-dark">
                     <thead>
                         <tr>
                             <th scope="col" colspan="2" class="text-uppercase text-center">Software</th>
@@ -205,7 +183,7 @@
                             <td class="text-right">Sur devis</td>
                         </tr>
                     </tbody>
-                </table>
+                </table><hr/>
 
             </div>
         </div>
