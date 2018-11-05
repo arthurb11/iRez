@@ -3,7 +3,7 @@
 <?php ob_start(); ?>        
 <main role="main">
     <section id="contact">
-        <h2 class="py-4 text-center text-uppercase"> <i class="fas fa-envelope" style="margin-right: 10px;"></i>Nous contacter</h2>
+        <h2 class="py-4 text-center text-uppercase"> <i class="fas fa-envelope mr-3"></i>Nous contacter</h2>
         <div class="text-center" style="margin: 30px;">
             <p>Prenez contact avec nous par mail via le formulaire de contact ou par téléphone (indiqué ci-dessus)<br/> pour toute demande, renseignement, conseil, prise de rendez-vous...</p>
         </div>

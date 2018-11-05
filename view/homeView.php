@@ -6,12 +6,12 @@
         <section id="carousel-home">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-md-12 m-0 p-0" style="height: -webkit-fill-available;">
+                    <div class="col-md-12 m-0 p-0" style="height: -webkit-fill-available; background-color: rgba(0, 99, 178, 0.4)">
                         <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
                             <div class="carousel-inner" role="listbox">
-                                <div class="carousel-item active" style="background-image: url('asserts/img/slide-a.jpg');"></div>
-                                <div class="carousel-item" style="background-image: url('asserts/img/slide-b.jpg');"></div>
-                                <div class="carousel-item" style="background-image: url('asserts/img/slide-c.jpg');"></div>
+                                <div class="carousel-item active" style="background-image: url('asserts/img/slide-a.jpg'); filter: blur(5px);"></div>
+                                <div class="carousel-item" style="background-image: url('asserts/img/slide-b.jpg'); filter: blur(5px);"></div>
+                                <div class="carousel-item" style="background-image: url('asserts/img/slide-c.jpg'); filter: blur(5px);"></div>
                             </div>
                         </div>
                         <div id="presentation">
@@ -29,18 +29,18 @@
 
         <span class="ancres" id="services" ></span>
         <div class="container">
-            <div class="text-center" style="margin: 30px;">
+            <div class="text-center mr-3">
                 <h2 class="py-4 text-uppercase" style="margin: 20px;">Services et conseils en informatique</h2><hr/>
-                <p>Nous intervenons rapidement, pour les particuliers et les professionels, <br/>dans <strong>Aubagne(13400)</strong> et ses alentours afin de vous permettre de profiter de votre informatique au quotidien. </p>
+                <p class="pb-5">Nous intervenons rapidement, pour les particuliers et les professionels, <br/>dans <strong>Aubagne(13400)</strong> et ses alentours afin de vous permettre de profiter de votre informatique au quotidien. </p>
             </div>
         </div>
-        <section class="features16 cid-qIp0qVn2Fg" id="features16-5" style="padding: 30px;">
+        <section class="features16 cid-qIp0qVn2Fg p-2" id="features16-5">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-md-6 text-element">
                         <div class="text-content">
                             
-                            <h2>Dépannage tout support <i class="fas fa-laptop"></i><i class="fas fa-desktop"></i><i class="fas fa-tablet-alt"></i></h2>
+                            <h3 class="font-weight-bold">Dépannage tout support <i class="fas fa-laptop"></i><i class="fas fa-desktop"></i><i class="fas fa-tablet-alt"></i></h3>
                             <h5 class="text-uppercase">windows / mac</h5>
                             <div class="mbr-section-text">
                                 <p class="mbr-text pt-3 mbr-light mbr-fonts-style align-left display-7">
@@ -60,7 +60,7 @@
             </div>          
         </section>
 
-        <section class="features16 cid-qIp0qVn2Fg" id="features16-5" style="padding: 30px;">
+        <section class="features16 cid-qIp0qVn2Fg p-2" id="features16-5">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-md-6 image-element">
@@ -71,7 +71,7 @@
                     <div class="col-md-6 text-element">
                         <div class="text-content">
                             
-                            <h2>Montage unité centrale</h2>
+                            <h3 class="font-weight-bold">Montage unité centrale</h3>
                             <h5 class="text-uppercase">Adapté à vos besoins</h5>
                             <div class="mbr-section-text">
                                 <p class="mbr-text pt-3 mbr-light mbr-fonts-style align-left display-7">
@@ -85,12 +85,12 @@
         </section>
             
 
-        <section class="features17 cid-qIp0uk8TbN" id="features17-6" style="padding: 30px;">
+        <section class="features17 cid-qIp0uk8TbN p-2" id="features17-6">
             <div class="container">
                 <div class="row main align-items-center">
                     <div class="col-md-6 text-element">
                         <div class="text-content">
-                            <h2>Conseils personnalisés</i></h2>
+                            <h3 class="font-weight-bold">Conseils personnalisés</i></h3>
                             <h5 class="text-uppercase">Par téléphone ou par mail</h5>
                             <div class="mbr-section-text">
                                 <p class="mbr-text pt-3 mbr-light mbr-fonts-style align-left mbr-white display-5">
@@ -111,7 +111,7 @@
 
     
         
-        <section class="features16 cid-qIp0qVn2Fg" id="features16-5" style="padding: 30px;">
+        <section class="features16 cid-qIp0qVn2Fg p-2" id="features16-5">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-md-6 image-element">
@@ -122,7 +122,7 @@
                     <div class="col-md-6 text-element">
                         <div class="text-content">
                             
-                            <h2>Récupération et sauvegarde de données</h2>
+                            <h3 class="font-weight-bold">Récupération et sauvegarde de données</h3>
                             <h5 class="text-uppercase">(Serveur N.A.S.)</h5>
                             <div class="mbr-section-text">
                                 <p class="mbr-text pt-3 mbr-light mbr-fonts-style align-left display-7">

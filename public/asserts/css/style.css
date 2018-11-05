@@ -43,7 +43,7 @@ a:hover{
 h1 {
     letter-spacing: 5px;
     font-weight: bold;
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Fjalla One', sans-serif;
 }
 
 p {
@@ -54,7 +54,7 @@ p {
 h2 {
     font-size: 1.7rem;
     letter-spacing: 4px;
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Fjalla One', sans-serif;
     font-weight: bold;
 }
 
@@ -91,9 +91,10 @@ h2 {
 }
 
 nav a{
-    letter-spacing: 3px;
+    letter-spacing: 2px;
     margin: 0 15px;
     text-decoration: none;
+    font-family: 'Noto Sans', sans-serif;
 }
 
 #navbarNavAltMarkup {
@@ -116,7 +117,7 @@ a.nav-item.effect-1:before {
     bottom: 0;
     width: 100%;
     height: 2px;
-    background: cadetblue;
+    background: #FC9E21;
     transform: scaleX(0); 
 }
 a.nav-item.effect-1:hover:before {
@@ -140,7 +141,7 @@ a.active:hover {
 }
 
 a.active {
-    border-bottom: solid 3px cadetblue;
+    border-bottom: solid 2px #FC9E21;
     color: white;
     margin-top: 0.6rem;
     font-size: unset;
@@ -204,6 +205,9 @@ a.btn {
     padding: 10px;
 }
 
+h5 {
+    font-size: 1rem;
+}
 
 
 /* TARIFS */
@@ -243,8 +247,13 @@ div#contact_div.row {
     margin: 0.4em;
 }
 
-input:required, textarea:required {
+input:required {
     background: url('../img/etoile.png') 93% center no-repeat;
+    background-color: white;
+}
+
+textarea:required {
+    background: url('../img/etoile.png') 93% 8% no-repeat;
     background-color: white;
 }
 

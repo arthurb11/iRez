@@ -10,7 +10,7 @@
                 <p>Nous réalisons les interventions à domicile (prix du service + frais de déplacement)<br/> et en atelier.</p>
             </div>
             <div class="col-12">
-                <h2 class="text-center mt-5 tarifs_h2"><i class="fas fa-home" style="margin-right: 10px;"></i>Chez vous </h2><hr/>
+                <h2 class="text-center mt-5 tarifs_h2"><i class="fas fa-home mr-3"></i>Chez vous </h2><hr/>
                 <table class="table table-hover table-dark">
                     <thead>
                         <tr>
@@ -59,7 +59,7 @@
                 <p>Exemple: 15Km + 2H d'intervention = 10€ + 50€ + 50€ = 110€ <br/>
                 <small>*Intervention 1H Urgence : Horaires exceptionnels > 19H, Jours non ouvrés, Intervention sous 24H sous réserve de disponibilité.</small></p>
 
-                <h2 class="text-center mt-5 tarifs_h2"><i class="fas fa-wrench" style="margin-right: 10px;"></i>L'atelier </h2><hr/>
+                <h2 class="text-center mt-5 tarifs_h2"><i class="fas fa-wrench mr-3"></i>L'atelier </h2><hr/>
                 <table class="table table-hover table-dark">
                     <thead>
                         <tr>
