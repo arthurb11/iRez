@@ -56,7 +56,7 @@
                             <ul class="list-inline pt-2" id="contact-ul">
                                 <li class="list-inline-item"><i class="fas fa-phone"></i></li>
                                 <li class="list-inline-item">06 36 48 38 29</li>
-                                <li class="list-inline-item">|</li>
+                                <li class="list-inline-item barre_separation">|</li>
                                 <li class="list-inline-item"><i class="fas fa-envelope"></i></li>
                                 <li class="list-inline-item">irez.solutions.info@gmail.com</li>
                             </ul>
@@ -78,7 +78,7 @@
     <footer>
         <div class="container-fluid bg-anthra" id="footer">
             <div class="text-center text-white py-2">
-                <a class="py-2" href="contact"><i class="fas fa-envelope pt-2"></i></a>
+                <a class="py-2 " href="contact"><i class="fas fa-envelope pt-2"></i></a>
                 <p class="pt-3">06 36 48 38 29 | irez.solutions.info@gmail.com</p>
                 <p>240 Chemin Saint Martin 13420 Gémenos</p>
             </div>
@@ -86,14 +86,14 @@
         <div class="container-fluid bg-dark text-white pt-3">
             <div class="row">
                 <div class="col-md-6">
-                    <p>iRez 2018 | Tous droits réservés ©</p>
+                    <p>iRez 2018 <span class="barre_separation">|</span> Tous droits réservés ©</p>
                 </div>
                 <div class="col-md-6 text-right">
                     <ul class="list-inline">
                         <li class="list-inline-item"><a href="/mentions-legales">Mentions légales</a></li>
-                        <li class="list-inline-item">|</li>
+                        <li class="list-inline-item barre_separation">|</li>
                         <li class="list-inline-item"><a href="/politique-de-confidentialite">Politique de confidentialité</a></li>
-                        <li class="list-inline-item">|</li>
+                        <li class="list-inline-item barre_separation">|</li>
                         <li class="list-inline-item"><a href="/plan-du-site">Plan du site</a></li>
                     </ul>
                 </div>

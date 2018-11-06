@@ -2,10 +2,12 @@
 
 <?php ob_start(); ?>        
 <main role="main">
+    <div class="container">
     <section id="contact">
-        <h2 class="py-4 text-center text-uppercase"> <i class="fas fa-envelope mr-3"></i>Nous contacter</h2>
+        <h2 class="py-4 text-center text-uppercase"> <i class="fas fa-envelope mr-3"></i>Nous contacter</h2><hr/>
         <div class="text-center" style="margin: 30px;">
             <p>Prenez contact avec nous par mail via le formulaire de contact ou par téléphone (indiqué ci-dessus)<br/> pour toute demande, renseignement, conseil, prise de rendez-vous...</p>
+        </div>
         </div>
         <div class="container-fluid">
         
@@ -42,13 +44,14 @@
                             <label for="policy" class="form-check-label mb-3">J’ai lu la <a href="/policy">politique de confidentialité</a> de ce site internet et accepte d’être recontacté</label>  
                         </div>
                         <div class="mx-auto">
-                            <button type="submit" name="submit" class="btn btn-primary">Envoyer</button>
+                            <button type="submit" name="submit" class="btn btn-primary btn-services mt-3" style="width: 100%;">Envoyer</button>
                         </div>
                     </form> 
                 </div>
             </div>
         </div>
     </section>
+    
 </main>   
 <?php $content = ob_get_clean(); ?>
 

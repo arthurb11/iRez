@@ -14,13 +14,12 @@ if (filter_has_var(INPUT_POST, 'submit')) {
     $tel = htmlspecialchars($_POST['tel']);
     $email = htmlspecialchars($_POST['email']);
     $message = htmlspecialchars($_POST['message']);
-    $check = $_POST['policy'];
     
     $rgx_name = '/[^A-Za-zÀÁÂÃÄÅÇÈÉÊËÌÍÎÏÒÓÔÕÖÙÚÛÜÝàáâãäåçèéêëìíîïðòóôõöùúûüýÿ]/'; 
     $rgx_tel = '/[^0[1-9][0-9]{8}]/';
 
     if (isset($lastname) AND isset($firstname) AND isset($tel) AND isset($email) AND isset($message) AND isset($check))  {
-        if (!empty($lastname) AND !empty($firstname) AND isset($tel) AND !empty($email) AND !empty($message) AND !empty($check)) {
+        if (!empty($lastname) AND !empty($firstname) AND isset($tel) AND !empty($email) AND !empty($message) AND !empty($_POST['policy'])) {
             if (strlen($lastname) > 2 OR strlen($firstname) > 2){
                 if (!preg_match($rgx_name, $lastname)){
                     if (!preg_match($rgx_name, $firstname)) {

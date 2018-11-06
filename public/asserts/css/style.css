@@ -16,6 +16,7 @@ a{
 a:hover{
     text-decoration: none;
     transition: 500ms;
+    color: rgb(0, 99, 178);
 }
 
 .ancres{display: block; 
@@ -58,6 +59,14 @@ h2 {
     font-weight: bold;
 }
 
+h5 {
+    color: rgb(0, 99, 178);
+    font-size: 1rem;
+}
+
+.barre_separation {
+    color: #FC9E21;
+}
 
 /* HEADER */
 
@@ -132,10 +141,6 @@ a.nav-item.effect-1.dropdown.active:hover:before {
     display: none;
 }
 
-a.nav-item.effect-1:focus  {
-    color: cadetblue !important;
-}
-
 a.active:hover {
     text-decoration: none;
 }
@@ -174,7 +179,7 @@ a.active {
     right: 0;
     margin-left: auto;
     margin-right: auto;
-    border-bottom: white solid 0.5px;
+    border-bottom: #d38218 solid 0.5px;
     width: 45% !important;
     padding-bottom: 2%;
 }
@@ -192,11 +197,28 @@ a.active {
     padding: 0 200px;
 }
 
-a.btn {
+a.btn, a.btn.btn-services, .btn-primary {
     text-decoration: none;
+    color: #fff;
+    background-color: #d38218;
+    border-color: #d38218;
 }
 
+.btn:hover, .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle, a.btn.btn-services:hover, a.btn.btn-services:active  {
+    color: #fff;
+    background-color: #FC9E21;
+    border-color: #FC9E21;
+}
 
+/* a.btn.btn-services {
+    background-color: rgb(0, 99, 178);
+    border-color: rgb(0, 99, 178);
+}
+
+a.btn.btn-services:hover, a.btn.btn-services:active {
+    background-color: #1b7dce;
+    border-color: #1b7dce;
+} */
 
 /*//// services */
 
@@ -204,11 +226,6 @@ a.btn {
     margin: 20px;
     padding: 10px;
 }
-
-h5 {
-    font-size: 1rem;
-}
-
 
 /* TARIFS */
 
@@ -291,7 +308,7 @@ footer{
 footer i:hover{
     font-size: 200%;
     transition: 500ms;
-    color: cadetblue;
+    color: #FC9E21;
 }
 
 footer i{
@@ -301,6 +318,13 @@ footer i{
 
 footer a{
     color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover{
+    text-decoration: none;
+    transition: 500ms;
+    color: #FC9E21;
 }
 
 /* 404 */
