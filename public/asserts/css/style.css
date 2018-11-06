@@ -340,13 +340,13 @@ footer a:hover{
 .title_404 {
   font-size: 6em;
   font-weight: 700;
-  color: #EE4B5E;
+  color: #FC9E21;
 }
 
 .subtitle_404 {
   font-size: 40px;
   font-weight: 700;
-  color: cadetblue;
+  color: rgb(0, 99, 178);
 }
 
 .buttons_404 {
@@ -354,16 +354,16 @@ footer a:hover{
 }
 .buttons_404 a.button_404 {
   font-weight: 700;
-  border: 2px solid #EE4B5E;
+  border: 2px solid #FC9E21;
   text-decoration: none;
   padding: 15px;
   text-transform: uppercase;
-  color: #EE4B5E;
+  color: #FC9E21;
   border-radius: 26px;
   transition: all 0.2s ease-in-out;
 }
 .buttons_404 a.button_404:hover {
-  background-color: #EE4B5E;
+  background-color: #FC9E21;
   color: white;
   transition: all 0.2s ease-in-out;
 }
