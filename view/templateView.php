@@ -5,7 +5,7 @@
 
         <!-- Begin Cookie Consent plugin by Silktide - http://silktide.com/cookieconsent -->
         <script type="text/javascript">
-            window.cookieconsent_options = {"message":"Ce site web utilise les cookies pour assurer le meilleur fonctionnement du site.","dismiss":"Compris!","learnMore":"Plus d'infos","link":"/policy","theme":"light-floating"};
+            window.cookieconsent_options = {"message":"En poursuivant votre navigation sur ce site, vous acceptez l’utilisation de cookies.","dismiss":"J'accepte","learnMore":"Plus d'infos","link":"/policy","theme":"light-floating"};
         </script>
 
         <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/1.0.10/cookieconsent.min.js"></script>
@@ -30,7 +30,7 @@
             <div class="row">
                 <div class="col-12 no-padding-nav">
                     <nav class="nav navbar navbar-expand-lg navbar-light bg-anthra">  
-                        <a class="navbar-brand text-white py-3" href="/"><img class="img-fluid logonav" src="asserts/img/logo.png" alt="logo"></a>
+                        <a class="navbar-brand text-white py-3" href="/"><img class="img-fluid logonav col-3" src="asserts/img/logoheader.png" alt="logo"></a>
                         <button class="navbar-toggler bg-dark " type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
@@ -41,7 +41,7 @@
                         <?php $page = $_SERVER['REQUEST_URI']; $page = str_replace("/irez.fr/", "", $page); ?>
                         <!--*********************************************************************************** -->
                         
-                        <div class="collapse navbar-collapse text-uppercase justify-content-end" id="navbarNavAltMarkup">
+                        <div class="collapse navbar-collapse text-uppercase justify-content-end col-9" id="navbarNavAltMarkup">
                             <div class="navbar-nav square">
                                 <a <?php if($page == "/"){echo 'class="active"';} ?> class="nav-item nav-link text-white effect-1 dropdown" href="/">Accueil<span class="sr-only">(current)</span></a>
                                 <a <?php if($page == "/tarifs"){echo 'class="active"';} ?> class="nav-item nav-link text-white effect-1 dropdown" href="tarifs">Tarifs</a>
