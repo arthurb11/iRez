@@ -58,7 +58,7 @@
                         </div>
                     </div>
                     <div class="col-md-6 image-element">
-                        <div class="img-wrap justify-content-end">
+                        <div class="img-wrap">
                             <img class="img-fluid img-services" src="asserts/img/1.jpg" alt="" title="">
                         </div>
                     </div>
