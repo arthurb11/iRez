@@ -8,7 +8,7 @@
             <div class="text-center" style="margin: 30px;">
                 <h2 class="py-4 text-center text-uppercase" style="margin-top: 180px !important;">Grille des tarifs</h2>
                 <hr/>
-                <p>Nous réalisons les interventions à domicile (prix du service + frais de déplacement)<br/> et en atelier.</p>
+                <p>Nous réalisons les interventions à domicile (prix du service + frais de déplacement) et en atelier.</p>
             </div>
             <div class="col-12">
                 <h2 class="text-center mt-5 tarifs_h2"><i class="fas fa-home mr-3"></i>Chez vous </h2>
