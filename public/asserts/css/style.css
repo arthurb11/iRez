@@ -20,8 +20,8 @@ a:hover{
 }
 
 .ancres{display: block; 
-    height: 137px; /*same height as header*/ 
-    margin-top: -137px; /*same height as header*/ visibility: hidden;}
+    height: 147px; /*same height as header*/ 
+    margin-top: -147px; /*same height as header*/ visibility: hidden;}
 
 #contact h1, #mentions_legales h1, #tarifs h1, #policy_h1, #contact h2, #mentions_legales h2, #policy_h2, #plan h2 {
     margin-top: 180px !important;
@@ -481,7 +481,11 @@ footer a:hover{
 
 
 button.navbar-toggler.bg-dark {
-    background-color: cadetblue !important;
+    background-color: #FC9E21 !important;
+}
+
+button.navbar-toggler.bg-dark:active, button.navbar-toggler.bg-dark:focus  {
+    background-color: rgb(138, 83, 13) !important;
 }
 
 .navbar-toggler {
@@ -490,15 +494,16 @@ button.navbar-toggler.bg-dark {
 
 
 
+
 /* portables et tablettes */
 
 @media screen and (max-width: 1300px) {
-
 
     /*accueil carousel*/
     #presentation p {
         padding: 20px 20px; 
     }
+    
 }
 
 @media screen and (max-width: 991px) {
@@ -513,6 +518,15 @@ button.navbar-toggler.bg-dark {
     /*accueil carousel*/
     #presentation p {
         padding: 20px 20px;
+    }
+
+    nav a.active {
+        border-bottom: none;
+        color: #FC9E21;
+    }
+
+    a.nav-item.effect-1:before {
+        background: none;
     }
 }
 
@@ -556,9 +570,18 @@ button.navbar-toggler.bg-dark {
 
 
 /* portables */
+
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .navbar-brand {
+       max-width: 50%;
+   }
+}
+
+
 @media screen and (max-width: 768px) {
     .navbar-brand {
-        min-width: 70% !important;
+        min-width: 40% !important;
         width: min-content; 
     }
 
@@ -585,54 +608,14 @@ button.navbar-toggler.bg-dark {
     }
 }
 
-/*cards*/
-@media (min-width: 640px) {
-    .blog-card {
-        flex-direction: row;
-        max-width: 700px;
-    }
-    .blog-card .meta {
-        flex-basis: 40%;
-        height: auto;
-    }
-    .blog-card .description {
-        flex-basis: 60%;
-    }
-    .blog-card .description:before {
-        -webkit-transform: skewX(-3deg);
-        transform: skewX(-3deg);
-        content: "";
-        background: #fff;
-        width: 30px;
-        position: absolute;
-        left: -10px;
-        top: 0;
-        bottom: 0;
-        z-index: -1;
-    }
-    .blog-card.alt {
-        flex-direction: row-reverse;
-    }
-    .blog-card.alt .description:before {
-        left: inherit;
-        right: -10px;
-        -webkit-transform: skew(3deg);
-        transform: skew(3deg);
-    }
-    .blog-card.alt .details {
-        padding-left: 25px;
-    }
-}
+
 /**************************************/
 
 @media screen and (max-width: 576px) {
-    .logonav {
-        margin-left: 63px; 
-    }
+   
     .navbar-brand {
-        min-width: 70% !important;
+        min-width: 50% !important;
         width: min-content; 
-        text-align: center;
     }
 
     p {
