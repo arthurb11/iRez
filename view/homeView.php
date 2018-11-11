@@ -69,12 +69,12 @@
         <section class="features16 cid-qIp0qVn2Fg p-2" id="features16-5">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-md-6 image-element">
+                    <div class="col-md-6 image-element invert-img">
                         <div class="img-wrap">
                             <img class="img-fluid img-services" src="asserts/img/3.jpg" alt="" title="">
                         </div>
                     </div>
-                    <div class="col-md-6 text-element">
+                    <div class="col-md-6 text-element invert-text">
                         <div class="text-content">
                             <h3 class="font-weight-bold">Montage unité centrale</h3>
                             <h5 class="text-uppercase">Adapté à vos besoins</h5>
@@ -114,12 +114,12 @@
         <section class="features16 cid-qIp0qVn2Fg p-2" id="features16-5">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-md-6 image-element">
+                    <div class="col-md-6 image-element invert-img">
                         <div class="img-wrap">
                             <img class="img-fluid img-services" src="asserts/img/6.jpg" alt="" title="">
                         </div>
                     </div>
-                    <div class="col-md-6 text-element">
+                    <div class="col-md-6 text-element invert-text">
                         <div class="text-content">
 
                             <h3 class="font-weight-bold">Récupération et sauvegarde de données</h3>

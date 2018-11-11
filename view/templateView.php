@@ -83,18 +83,18 @@
                 <p>240 Chemin Saint Martin 13420 Gémenos</p>
             </div>
         </div>
-        <div class="container-fluid bg-dark text-white pt-3">
+        <div class="container-fluid bg-dark text-white pt-3" id="sous-footer">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-6 col-sm-6" id="responsive-p">
                     <p>iRez 2018 <span class="barre_separation">|</span> Tous droits réservés ©</p>
                 </div>
-                <div class="col-md-6 text-right">
+                <div class="col-md-6 col-sm-6 text-right">
                     <ul class="list-inline">
-                        <li class="list-inline-item"><a href="/mentions-legales">Mentions légales</a></li>
-                        <li class="list-inline-item barre_separation">|</li>
-                        <li class="list-inline-item"><a href="/politique-de-confidentialite">Politique de confidentialité</a></li>
-                        <li class="list-inline-item barre_separation">|</li>
-                        <li class="list-inline-item"><a href="/plan-du-site">Plan du site</a></li>
+                        <li class="list-inline-item cacher-element"><a href="/mentions-legales">Mentions légales</a></li>
+                        <li class="list-inline-item barre_separation cacher-element">|</li>
+                        <li class="list-inline-item cacher-element"><a href="/politique-de-confidentialite">Politique de confidentialité</a></li>
+                        <li class="list-inline-item barre_separation cacher-element">|</li>
+                        <li class="list-inline-item cacher-element"><a href="/plan-du-site">Plan du site</a></li>
                     </ul>
                 </div>
             </div>
