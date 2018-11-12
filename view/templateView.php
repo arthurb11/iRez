@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="fr">
     <head>
         <!-- Begin Cookie Consent plugin by Silktide - http://silktide.com/cookieconsent -->
 
@@ -21,6 +21,7 @@
         <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Noto+Sans" rel="stylesheet">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
         <link rel="stylesheet" href="asserts/css/style.css">
+        <link rel="shortcut icon" type="image/png" href="../asserts/img/favicon6.png">
         <title> <?= $title ?> </title>
     </head>
     
