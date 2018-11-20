@@ -523,7 +523,7 @@ button.navbar-toggler.bg-dark:active, button.navbar-toggler.bg-dark:focus  {
 }
 
 
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 767px) {
     .navbar-brand {
         min-width: 40% !important;
         width: min-content; 
@@ -572,7 +572,7 @@ button.navbar-toggler.bg-dark:active, button.navbar-toggler.bg-dark:focus  {
 
 /**************************************/
 
-@media screen and (min-width: 576px) and (max-width: 647px) {
+@media screen and (min-width: 575px) and (max-width: 647px) {
   
     ul.list-inline, #sous-footer {
         font-size: 9px; 
@@ -580,7 +580,7 @@ button.navbar-toggler.bg-dark:active, button.navbar-toggler.bg-dark:focus  {
 
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 575px) {
    
     .navbar-brand {
         min-width: 65% !important;
