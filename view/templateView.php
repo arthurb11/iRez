@@ -31,18 +31,17 @@
             <div class="row">
                 <div class="col-12 no-padding-nav">
                     <nav class="nav navbar navbar-expand-lg navbar-light bg-anthra">  
-                        <a class="navbar-brand text-white py-3" href="/"><img class="img-fluid logonav col-3" src="asserts/img/logoheader.png" alt="logo"></a>
+                        <a class="navbar-brand text-white py-3" href="/"><img class="img-fluid logonav col-lg-5 col-xl-3" src="asserts/img/logoheader.png" alt="logo"></a>
                         <button class="navbar-toggler bg-dark " type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
                         
                         <!-- ces 2 lignes de php pour creer une variable page qui contiendra 
-                        l'URL de la page courante pour y inserer la classe active (on va pas creer un 
-                        controller pour ça) -->
+                        l'URL de la page courante pour y inserer la classe active -->
                         <?php $page = $_SERVER['REQUEST_URI']; $page = str_replace("/irez.fr/", "", $page); ?>
                         <!--*********************************************************************************** -->
                         
-                        <div class="collapse navbar-collapse text-uppercase justify-content-end col-9" id="navbarNavAltMarkup">
+                        <div class="collapse navbar-collapse text-uppercase justify-content-end col-lg-7 col-xl-9" id="navbarNavAltMarkup">
                             <div class="navbar-nav square">
                                 <a <?php if($page == "/"){echo 'class="active"';} ?> class="nav-item nav-link text-white effect-1 dropdown" href="/">Accueil<span class="sr-only">(current)</span></a>
                                 <a <?php if($page == "/tarifs"){echo 'class="active"';} ?> class="nav-item nav-link text-white effect-1 dropdown" href="tarifs">Tarifs</a>

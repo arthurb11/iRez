@@ -14,25 +14,19 @@
                                 <div class="carousel-item filter-blur" style="background-image: url('asserts/img/slide-c.jpg');"></div>
                             </div>
                         </div>
+                        <img src="../asserts/img/logopicto.png" id="logo-presentation" class="img-fluid">
                         <div id="presentation">
                             <div class="text-center text-white">
-<!--                                <h1 class="text-uppercase">Solutions Informatiques</h1>-->
-                                <img src="../asserts/img/logopicto.png" class="img-fluid">
+                                
                                 <p class="text-md-center">Spécialisé depuis plus de 10 ans dans le domaine informatique, nous vous proposons des services en <strong>atelier ainsi qu'à domicile</strong>. 
                                 Nous sommes situés à Aubagne(13) dans la zone des Paluds.<br />
                                 Dépannage de votre machine, assemblage de votre nouveau PC, sauvegarde de vos données, installation réseau... <strong><br /><br />Nous répondrons à tous vos besoins.</strong><br /><br />
                                 <a href="#services" class="btn btn-primary m-3 js-scrollTo">Continuer</a>
-                                <!--
-                                <a id="buttonlogo" href="#services" class="js-scrollTo">
-                                <img class="img-fluid" src="../asserts/img/logobutton.png">
-                                </a>
-                                -->
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-
         </section>
 
         <span class="ancres" id="services"></span>
@@ -51,7 +45,7 @@
                             <h3 class="font-weight-bold">Dépannage tout support <i class="fas fa-laptop"></i>&nbsp;<i class="fas fa-desktop"></i>&nbsp;<i class="fas fa-tablet-alt"></i></h3>
                             <h5 class="text-uppercase">windows / mac</h5>
                             <div class="mbr-section-text">
-                                <p class="mbr-text pt-3 mbr-light mbr-fonts-style align-left display-7">
+                                <p class="mbr-text pt-3 mbr-light mbr-fonts-style display-7">
                                     Nous réparons votre ordinateur quel que soit le support: PC portable, unité centrale, Apple Mac, Microsoft Windows... <br/>
                                     Mais aussi smartphones et tablettes (IOS et ANDROID).</p>
                             </div>
@@ -79,7 +73,7 @@
                             <h3 class="font-weight-bold">Montage unité centrale</h3>
                             <h5 class="text-uppercase">Adapté à vos besoins</h5>
                             <div class="mbr-section-text">
-                                <p class="mbr-text pt-3 mbr-light mbr-fonts-style align-left display-7">
+                                <p class="mbr-text pt-3 mbr-light mbr-fonts-style display-7">
                                     Nous montons et assemblons pièce par pièce votre ordinateur entièrement adapté à vos besoins: utilisation classique, gaming, M.A.O.(Musique Assistée par Ordinateur)...</p>
                             </div>
                         </div>
@@ -97,7 +91,7 @@
                             <h3 class="font-weight-bold">Conseils personnalisés</h3>
                             <h5 class="text-uppercase">Par téléphone ou par mail</h5>
                             <div class="mbr-section-text">
-                                <p class="mbr-text pt-3 mbr-light mbr-fonts-style align-left mbr-white display-5">
+                                <p class="mbr-text pt-3 mbr-light mbr-fonts-style mbr-white display-5">
                                     Pour un achat ou une configuration sur mesure. Nous mettrons tout en oeuvre pour répondre à vos questions.</p>
                             </div>
                         </div>
@@ -125,7 +119,7 @@
                             <h3 class="font-weight-bold">Récupération et sauvegarde de données</h3>
                             <h5 class="text-uppercase">Serveur N.A.S.</h5>
                             <div class="mbr-section-text">
-                                <p class="mbr-text pt-3 mbr-light mbr-fonts-style align-left display-7">
+                                <p class="mbr-text pt-3 mbr-light mbr-fonts-style display-7">
                                     Votre disque dur est endommagé ou peine à fonctionner, nous pouvons essayer de récupérer vos données avant que celles-ci ne soient définitivement perdues.</p>
                             </div>
                         </div>
