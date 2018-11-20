@@ -89,7 +89,7 @@
                     <p>iRez 2018 <span class="barre_separation">|</span> Tous droits réservés ©</p>
                 </div>
                 <div class="text-right col-sm-7 col-md-6">
-                    <ul class="list-inline">
+                    <ul class="list-inline menu-footer">
                         <li class="list-inline-item cacher-element"><a href="/mentions-legales">Mentions légales</a></li>
                         <li class="list-inline-item barre_separation cacher-element">|</li>
                         <li class="list-inline-item cacher-element"><a href="/politique-de-confidentialite">Politique de confidentialité</a></li>

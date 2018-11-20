@@ -590,7 +590,7 @@ button.navbar-toggler.bg-dark:active, button.navbar-toggler.bg-dark:focus  {
     }
 */
 
-    ul.list-inline, #sous-footer {
+    ul.list-inline.menu-footer, #sous-footer {
         text-align: center !important;
         
     }
@@ -612,7 +612,7 @@ button.navbar-toggler.bg-dark:active, button.navbar-toggler.bg-dark:focus  {
 
 @media screen and (min-width: 575px) and (max-width: 647px) {
   
-    ul.list-inline, #sous-footer {
+    ul.list-inline.menu-footer, #sous-footer {
         font-size: 9px; 
     }
 
@@ -648,7 +648,7 @@ button.navbar-toggler.bg-dark:active, button.navbar-toggler.bg-dark:focus  {
         top: 35%;
     }
 
-    ul.list-inline {
+    ul.list-inline.menu-footer {
         font-size: 8px;
     }
 }
