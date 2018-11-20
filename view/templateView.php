@@ -85,10 +85,10 @@
         </div>
         <div class="container-fluid bg-dark text-white pt-3" id="sous-footer">
             <div class="row">
-                <div class="col-md-6 col-sm-6" id="responsive-p">
+                <div class="col-sm-5 col-md-6 ">
                     <p>iRez 2018 <span class="barre_separation">|</span> Tous droits réservés ©</p>
                 </div>
-                <div class="col-md-6 col-sm-6 text-right">
+                <div class="text-right col-sm-7 col-md-6">
                     <ul class="list-inline">
                         <li class="list-inline-item cacher-element"><a href="/mentions-legales">Mentions légales</a></li>
                         <li class="list-inline-item barre_separation cacher-element">|</li>

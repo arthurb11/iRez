@@ -552,6 +552,11 @@ button.navbar-toggler.bg-dark:active, button.navbar-toggler.bg-dark:focus  {
         font-size: 1.1rem;
     }
 
+    ul.list-inline, #sous-footer {
+        text-align: center !important;
+        
+    }
+
 }
 
 
@@ -563,7 +568,17 @@ button.navbar-toggler.bg-dark:active, button.navbar-toggler.bg-dark:focus  {
 }
 
 
+
+
 /**************************************/
+
+@media screen and (min-width: 576px) and (max-width: 647px) {
+  
+    ul.list-inline, #sous-footer {
+        font-size: 9px; 
+    }
+
+}
 
 @media screen and (max-width: 576px) {
    
@@ -579,17 +594,18 @@ button.navbar-toggler.bg-dark:active, button.navbar-toggler.bg-dark:focus  {
     #services {
         padding-top: 15px;
     }
-
-    /* footer ul.list-inline {
-        text-align: center !important;
-        font-size: x-small;
-    } */
 }
 
 @media screen and (max-width: 425px) {
+
     #table-responsive {
         font-size: 11px;
     }
+
+    ul.list-inline {
+        font-size: 8px;
+    }
+   
 }
 
 
