@@ -431,7 +431,43 @@ button.navbar-toggler.bg-dark:active, button.navbar-toggler.bg-dark:focus  {
 }
 
 
+/* BOOTSTRAP GRID SYSTEM */
 
+@media screen and (min-width: 1200px){
+    
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    #logo-presentation{
+        top: 28%;
+        width: 9% !important;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 991px) {
+    #logo-presentation{
+        top: 30%;
+        width: 10% !important;
+    }
+}
+
+@media screen and (min-width: 577px) and (max-width: 768px) {
+    #logo-presentation{
+        top: 27%;
+        width: 12% !important;
+    }
+    
+    #presentation p {   
+        top: 40%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    #logo-presentation{
+        top: 30%;
+        width: 18% !important;
+    }
+}
 
 /* portables et tablettes */
 
@@ -441,7 +477,7 @@ button.navbar-toggler.bg-dark:active, button.navbar-toggler.bg-dark:focus  {
     #presentation p {
         padding: 20px 20px; 
     }
-    
+
 }
 
 @media screen and (max-width: 991px) {
@@ -508,7 +544,7 @@ button.navbar-toggler.bg-dark:active, button.navbar-toggler.bg-dark:focus  {
     }
 
     #logo-presentation {
-       top: 20%;
+        top: 20%;
     }
 }
 
@@ -518,8 +554,8 @@ button.navbar-toggler.bg-dark:active, button.navbar-toggler.bg-dark:focus  {
 
 @media screen and (min-width: 767px) and (max-width: 991px) {
     .navbar-brand {
-       max-width: 37%;
-   }
+        max-width: 37%;
+    }
 }
 
 
@@ -546,11 +582,13 @@ button.navbar-toggler.bg-dark:active, button.navbar-toggler.bg-dark:focus  {
         top: 15%;
     }
 
+/*
     #presentation p {   
         top: 27%;
         line-height: 160%;
         font-size: 1.1rem;
     }
+*/
 
 }
 
@@ -566,9 +604,9 @@ button.navbar-toggler.bg-dark:active, button.navbar-toggler.bg-dark:focus  {
 /**************************************/
 
 @media screen and (max-width: 576px) {
-   
+
     .navbar-brand {
-        min-width: 65% !important;
+        min-width: 55% !important;
         width: min-content; 
     }
 
@@ -581,14 +619,22 @@ button.navbar-toggler.bg-dark:active, button.navbar-toggler.bg-dark:focus  {
     }
 
     /* footer ul.list-inline {
-        text-align: center !important;
-        font-size: x-small;
-    } */
+    text-align: center !important;
+    font-size: x-small;
+} */
 }
 
 @media screen and (max-width: 425px) {
     #table-responsive {
         font-size: 11px;
+    }
+    #logo-presentation{
+        top: 22%;
+        width: 22% !important;
+    }
+    
+    #presentation p{
+        top: 35%;
     }
 }
 
@@ -611,7 +657,7 @@ button.navbar-toggler.bg-dark:active, button.navbar-toggler.bg-dark:focus  {
     #contact-ul {
         font-size: x-small;
     }
-    
+
 }
 
 
