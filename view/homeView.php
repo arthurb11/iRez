@@ -14,7 +14,7 @@
                                 <div class="carousel-item filter-blur" style="background-image: url('asserts/img/slide-c.jpg');"></div>
                             </div>
                         </div>
-                        <img src="../asserts/img/logopicto.png" id="logo-presentation" class="img-fluid">
+                        <img src="../asserts/img/logo-irez.png" id="logo-presentation" class="img-fluid">
                         <div id="presentation">
                             <div class="text-center text-white">
                                 

@@ -21,7 +21,7 @@
         <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Noto+Sans" rel="stylesheet">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
         <link rel="stylesheet" href="asserts/css/style.css">
-        <link rel="shortcut icon" type="image/png" href="../asserts/img/favicon6.png">
+        <link rel="shortcut icon" type="image/png" href="../asserts/img/favicon-irez.png" alt="favicon iRez">
         <title> <?= $title ?> </title>
     </head>
     
@@ -31,7 +31,7 @@
             <div class="row">
                 <div class="col-12 no-padding-nav">
                     <nav class="nav navbar navbar-expand-lg navbar-light bg-anthra">  
-                        <a class="navbar-brand text-white py-3" href="/"><img class="img-fluid logonav col-lg-5 col-xl-3" src="asserts/img/logoheader.png" alt="logo"></a>
+                        <a class="navbar-brand text-white py-3" href="/"><img class="img-fluid logonav col-lg-5 col-xl-3" src="asserts/img/logo-irez-solutions-informatiques.png" alt="Logo iRez Solutions Informatiques"></a>
                         <button class="navbar-toggler bg-dark " type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
