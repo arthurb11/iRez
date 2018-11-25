@@ -7,11 +7,11 @@
                 404
             </div>
 
-            <div class="subtitle_404">
+            <div class="subtitle_404 text-center">
                 Oops, la page que vous recherchez n'existe pas.
             </div>
 
-            <div class="buttons_404">
+            <div class="buttons_404 mt-5">
                 <a class="button_404" href="/">Retour à la page d'accueil</a>
             </div>
         </div>
