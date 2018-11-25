@@ -57,12 +57,12 @@
                 </tbody>
             </table>
 
-            <p>Exemple: 15Km + 2H d'intervention = 10€ + 50€ + 50€ = 110€ <br/>
+            <p id="tarifs-responsive">Exemple: 15Km + 2H d'intervention = 10€ + 50€ + 50€ = 110€ <br/>
             <small>*Intervention 1H Urgence : Horaires exceptionnels > 19H, Jours non ouvrés, Intervention sous 24H sous réserve de disponibilité.</small></p>
         </div>
         <div class="container">
             <h2 class="text-center mt-5 tarifs_h2"><i class="fas fa-wrench mr-3"></i>L'atelier </h2>
-            <table class="table table-hover table-dark" id="table-responsive">
+            <table class="table table-hover table-dark">
                 <thead>
                     <tr>
                         <th scope="col" colspan="2" class="text-uppercase text-center">Software</th>

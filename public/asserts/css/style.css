@@ -112,7 +112,7 @@ p {
 }
 
 .logonav{
-    max-width: 73%;
+    max-width: 100% !important;
 }
 
 .navbar {
@@ -445,6 +445,10 @@ button.navbar-toggler.bg-dark:active, button.navbar-toggler.bg-dark:focus  {
 @media screen and (min-width: 1024px) {
     #contact-ul {
         font-size: larger;
+
+    }
+    .logonav{
+        max-width: 73% !important;
     }
 }
 
@@ -489,6 +493,9 @@ button.navbar-toggler.bg-dark:active, button.navbar-toggler.bg-dark:focus  {
         top: 30%;
         width: 10% !important;
     }
+    .logonav{
+        max-width: 73% !important;
+    }
 }
 
 
@@ -524,7 +531,7 @@ button.navbar-toggler.bg-dark:active, button.navbar-toggler.bg-dark:focus  {
 
     ul.list-inline.menu-footer, #sous-footer {
         text-align: center !important;
-        
+
     }
 
     h2 {
@@ -538,7 +545,7 @@ button.navbar-toggler.bg-dark:active, button.navbar-toggler.bg-dark:focus  {
         top: 27%;
         width: 12% !important;
     }
-    
+
     #presentation p {   
         top: 40%;
     }
@@ -559,7 +566,7 @@ button.navbar-toggler.bg-dark:active, button.navbar-toggler.bg-dark:focus  {
 }
 
 @media screen and (min-width: 575px) and (max-width: 647px) {
-  
+
     ul.list-inline.menu-footer, #sous-footer {
         font-size: 9px; 
     }
@@ -567,7 +574,7 @@ button.navbar-toggler.bg-dark:active, button.navbar-toggler.bg-dark:focus  {
 }
 
 @media screen and (max-width: 575px) {
-   
+
     .navbar-brand {
         min-width: 55% !important;
         width: min-content; 
@@ -589,18 +596,23 @@ button.navbar-toggler.bg-dark:active, button.navbar-toggler.bg-dark:focus  {
         top: 30%;
         width: 18% !important;
     }
+
+    tbody{
+        font-size: 11px;
+    }
+
+    #tarifs-responsive{
+        font-size: 12px;
+    }
 }
 
 @media screen and (max-width: 425px) {
 
-    #table-responsive {
-        font-size: 11px;
-    }
     #logo-presentation{
         top: 22%;
         width: 22% !important;
     }
-    
+
     #presentation p{
         top: 35%;
     }
