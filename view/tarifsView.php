@@ -6,7 +6,7 @@
     <section>
         <div class="container">
             <div class="text-center" style="margin: 30px;">
-                <h2 class="py-4 text-center text-uppercase" style="margin-top: 180px !important;">Grille des tarifs</h2>
+                <h2 class="py-4 text-center text-uppercase principal">Grille des tarifs</h2>
                 <hr/>
                 <p>Nous réalisons les interventions à domicile (prix du service + frais de déplacement) et en atelier.</p>
             </div>

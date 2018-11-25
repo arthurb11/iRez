@@ -32,7 +32,7 @@
                 <div class="col-12 no-padding-nav">
                     <nav class="nav navbar navbar-expand-lg navbar-light bg-anthra">  
                         <a class="navbar-brand text-white py-3" href="/"><img class="img-fluid logonav col-1 col-sm-3 col-md-3 col-lg-4 col-xl-4" src="asserts/img/logo-irez-solutions-informatiques.png" alt="Logo iRez Solutions Informatiques"></a>
-                        <button class="navbar-toggler bg-dark " type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <button class="navbar-toggler bg-dark" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
                         

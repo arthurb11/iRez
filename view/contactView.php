@@ -4,7 +4,7 @@
 <main role="main">
     <div class="container">
     <section id="contact">
-        <h2 class="py-4 text-center text-uppercase"> <i class="fas fa-envelope mr-3"></i>Nous contacter</h2><hr/>
+        <h2 class="py-4 text-center text-uppercase principal"> <i class="fas fa-envelope mr-3"></i>Nous contacter</h2><hr/>
         <div class="text-center" style="margin: 30px;">
             <p>Prenez contact avec nous par mail via le formulaire de contact ou par téléphone (indiqué ci-dessus)<br/> pour toute demande, renseignement, conseil, prise de rendez-vous...</p>
         </div>

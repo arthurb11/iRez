@@ -23,9 +23,7 @@ a:hover{
     height: 147px; /*same height as header*/ 
     margin-top: -147px; /*same height as header*/ visibility: hidden;}
 
-#contact h1, #mentions_legales h1, #tarifs h1, #policy_h1, #contact h2, #mentions_legales h2, #policy_h2, #plan h2 {
-    margin-top: 180px !important;
-}
+
 
 .no-padding-nav {
     padding-right: 0;
@@ -47,12 +45,8 @@ h1 {
     font-family: 'Fjalla One', sans-serif;
 }
 
-p {
-    letter-spacing: 1px;
-    font-weight: 500;
-}
-
 h2 {
+    margin-top: 180px !important;
     font-size: 1.7rem;
     letter-spacing: 4px;
     font-family: 'Fjalla One', sans-serif;
@@ -62,6 +56,11 @@ h2 {
 h5 {
     color: rgb(0, 99, 178);
     font-size: 1rem;
+}
+
+p {
+    letter-spacing: 1px;
+    font-weight: 500;
 }
 
 .filter-color-blue{
@@ -113,7 +112,7 @@ h5 {
 }
 
 .logonav{
-    max-width: 100%;
+    max-width: 73%;
 }
 
 .navbar {
@@ -333,6 +332,7 @@ input:valid, textarea:valid {
     border: none;
 }
 
+
 /* FOOTER */
 
 footer{
@@ -433,8 +433,17 @@ button.navbar-toggler.bg-dark:active, button.navbar-toggler.bg-dark:focus  {
 
 /* BOOTSTRAP GRID SYSTEM */
 
-@media screen and (min-width: 1200px){
-    
+@media screen and (max-width: 1300px) {
+
+    #presentation p {
+        padding: 20px 20px; 
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    #contact-ul {
+        font-size: larger;
+    }
 }
 
 @media screen and (min-width: 992px) and (max-width: 1200px) {
@@ -444,52 +453,17 @@ button.navbar-toggler.bg-dark:active, button.navbar-toggler.bg-dark:focus  {
     }
 }
 
-@media screen and (min-width: 769px) and (max-width: 991px) {
-    #logo-presentation{
-        top: 30%;
-        width: 10% !important;
-    }
-}
 
-@media screen and (min-width: 577px) and (max-width: 768px) {
-    #logo-presentation{
-        top: 27%;
-        width: 12% !important;
-    }
-    
-    #presentation p {   
-        top: 40%;
-    }
-}
-
-@media screen and (max-width: 576px) {
-    #logo-presentation{
-        top: 30%;
-        width: 18% !important;
-    }
-}
-
-/* portables et tablettes */
-
-@media screen and (max-width: 1300px) {
-
-    /*accueil carousel*/
-    #presentation p {
-        padding: 20px 20px; 
-    }
-
-}
 
 @media screen and (max-width: 991px) {
 
-    /*header nav*/
+
     .navbar-toggler {
         height: min-content;
         margin-top: 4%;
         margin-bottom: 4%;
     }
 
-    /*accueil carousel*/
     #presentation p {
         padding: 20px 20px;
     }
@@ -508,56 +482,20 @@ button.navbar-toggler.bg-dark:active, button.navbar-toggler.bg-dark:focus  {
     }
 }
 
-
-
-/* tablettes */
-
-/*ipad pro*/
-@media screen and (min-height: 1300px) and (max-height: 1367px) {
-    #contact-ul {
-        font-size: 17px;
-    }  
-
-    #presentation h1 {
-        font-size: 3.2rem;
-        top: 250px;
-    }
-
-    #presentation p {
-        font-size: 30px;
-    }
-
-}
-/*****************/
-
-
-@media screen and (min-width: 1024px) {
-    #contact-ul {
-        font-size: larger;
-    }
-}
-
-@media screen and (min-height: 1024px) {
-    .navbar-light .navbar-toggler-icon {
-        max-width: 35px;
-        max-height: 40px;
-    }
-
-    #logo-presentation {
-        top: 20%;
+@media screen and (min-width: 769px) and (max-width: 991px) {
+    #logo-presentation{
+        top: 30%;
+        width: 10% !important;
     }
 }
 
 
-/* portables */
 
-
-@media screen and (min-width: 767px) and (max-width: 991px) {
+@media screen and (min-width: 768px) and (max-width: 991px) {
     .navbar-brand {
         max-width: 37%;
     }
 }
-
 
 @media screen and (max-width: 767px) {
     .navbar-brand {
@@ -582,21 +520,27 @@ button.navbar-toggler.bg-dark:active, button.navbar-toggler.bg-dark:focus  {
         top: 15%;
     }
 
-/*
-    #presentation p {   
-        top: 27%;
-        line-height: 160%;
-        font-size: 1.1rem;
-    }
-*/
-
     ul.list-inline.menu-footer, #sous-footer {
         text-align: center !important;
         
     }
 
+    h2 {
+        margin-top: 140px !important;
+    }
+
 }
 
+@media screen and (min-width: 577px) and (max-width: 768px) {
+    #logo-presentation{
+        top: 27%;
+        width: 12% !important;
+    }
+    
+    #presentation p {   
+        top: 40%;
+    }
+}
 
 
 @media screen and (min-width: 655px ) and (max-width: 769px) {
@@ -606,9 +550,11 @@ button.navbar-toggler.bg-dark:active, button.navbar-toggler.bg-dark:focus  {
 }
 
 
-
-
-/**************************************/
+@media screen and (min-width: 575px ) and (max-width: 769px) {
+    .navbar-toggler {
+        font-size: medium;
+    }
+}
 
 @media screen and (min-width: 575px) and (max-width: 647px) {
   
@@ -632,6 +578,15 @@ button.navbar-toggler.bg-dark:active, button.navbar-toggler.bg-dark:focus  {
     #services {
         padding-top: 15px;
     }
+
+    .navbar-toggler {
+        font-size: x-small;
+    }
+
+    #logo-presentation{
+        top: 30%;
+        width: 18% !important;
+    }
 }
 
 @media screen and (max-width: 425px) {
@@ -651,10 +606,15 @@ button.navbar-toggler.bg-dark:active, button.navbar-toggler.bg-dark:focus  {
     ul.list-inline.menu-footer {
         font-size: 8px;
     }
+
+    ::placeholder {
+        font-size: 0.8em;
+    }
+
+    .form-check {
+        font-size: 11px;
+    }
 }
-
-
-/* tout petits ecrans*/
 
 @media screen and (min-width: 320px) and (max-width: 362px) {
     #contact-ul {
@@ -675,6 +635,35 @@ button.navbar-toggler.bg-dark:active, button.navbar-toggler.bg-dark:focus  {
 
 }
 
+/*ipad pro*/
+@media screen and (min-height: 1300px) and (max-height: 1367px) {
+    #contact-ul {
+        font-size: 17px;
+    }  
+
+    #presentation h1 {
+        font-size: 3.2rem;
+        top: 250px;
+    }
+
+    #presentation p {
+        font-size: 30px;
+    }
+
+}
+/*****************/
+
+@media screen and (min-height: 1024px) {
+    .navbar-light .navbar-toggler-icon {
+        max-width: 35px;
+        max-height: 40px;
+    }
+
+    #logo-presentation {
+        top: 20%;
+    }
+}
+
 
 @media screen and (max-height: 830px) {
     .navbar-light .navbar-toggler-icon {
@@ -683,7 +672,28 @@ button.navbar-toggler.bg-dark:active, button.navbar-toggler.bg-dark:focus  {
 
     #presentation p {
         line-height: unset;
-        font-size: 0.9rem;
+        font-size: 0.8rem;
+    }
+}
+
+
+/*iphone5/SE*/
+@media screen and (max-height: 567px) {
+
+    #presentation p {
+        line-height: unset;
+        font-size: 0.7rem;
+        width: auto;
+        padding-top: 12%;
+    }
+
+    #logo-presentation {
+        top: 35%;
+    }
+
+    .btn.js-scrollTo {
+        font-size: unset;
+        display: initial;
     }
 }
 
@@ -691,20 +701,16 @@ button.navbar-toggler.bg-dark:active, button.navbar-toggler.bg-dark:focus  {
     #contact-header {
         font-size: 35% !important;
     }
-}
 
-
-
-/*iphone5/SE*/
-@media screen and (max-height: 569px) {
-    #presentation h1 {
-        margin-top: 30px;
+    #logo-presentation {
+        display: none;
     }
 
     #presentation p {
-        line-height: unset;
-        font-size: 0.7rem;
-        width: auto;
-        padding-top: 25%;
+        padding-top: unset;
     }
+
+    #contact-header {
+        font-size: 75% !important;
+    } 
 }
