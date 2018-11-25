@@ -18,7 +18,7 @@ if (filter_has_var(INPUT_POST, 'submit')) {
     $rgx_name = '/[^A-Za-zÀÁÂÃÄÅÇÈÉÊËÌÍÎÏÒÓÔÕÖÙÚÛÜÝàáâãäåçèéêëìíîïðòóôõöùúûüýÿ]/'; 
     $rgx_tel = '/[^0[1-9][0-9]{8}]/';
 
-    if (isset($lastname) AND isset($firstname) AND isset($tel) AND isset($email) AND isset($message) AND isset($check))  {
+    
         if (!empty($lastname) AND !empty($firstname) AND isset($tel) AND !empty($email) AND !empty($message) AND !empty($_POST['policy'])) {
             if (strlen($lastname) > 2 OR strlen($firstname) > 2){
                 if (!preg_match($rgx_name, $lastname)){
@@ -83,11 +83,6 @@ if (filter_has_var(INPUT_POST, 'submit')) {
             $error_class = 'alert-danger';
         }
     }
-    else{
-        $error = 'Veuillez remplir tous les champs obligatoires(*)';
-        $error_class = 'alert-danger';
-    }
-}
 
 require('../view/contactView.php'); 
 
