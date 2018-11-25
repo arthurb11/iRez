@@ -262,6 +262,10 @@ a.btn, a.btn.btn-services, .btn-primary {
     max-width: 80% !important;
 }
 
+#h2_services {
+    margin-top: 80px !important;
+}
+
 /* TARIFS */
 
 tr {
