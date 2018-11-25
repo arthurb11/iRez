@@ -55,46 +55,6 @@ function isContactExist($email) {
 
 
 
-// function isTel($tel) {
-
-//     try 
-//     {
-//         $bdd = dbConnect();
-
-//         $request = $bdd -> prepare("SELECT tel FROM contact WHERE tel = '".$tel."'") ;
-//         $response = $request->fetch();
-//         return $response;
-//     }
-//     catch(Exception $e)
-//     {
-//         die('Erreur : '.$e->getMessage());
-//     }
-    
-// }
-
-// function insertTel() {
-
-//     try 
-//     {
-//         $bdd = dbConnect();
-
-//         $request = $bdd -> prepare("INSERT INTO contact(`tel`) VALUES(:tel)");
- 
-//         $isRequestOk = $request -> execute(array(
-//             'tel'=>$_POST['tel'] 
-//         ));
-
-//         if (!$isRequestOk) {
-//             die('pas ok au niveau du tel insert');
-//         }
-//     }
-//     catch(Exception $e)
-//     {
-//         die('Erreur : '.$e->getMessage());
-//     }
-// }
-
-
 
 
     

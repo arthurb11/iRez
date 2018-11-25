@@ -3,9 +3,9 @@
 
 
 
-$path = ltrim($_SERVER['REQUEST_URI'], '/');    // Trim leading slash(es)
-$elements = explode('/', $path);                // Split path on slashes
-if(empty($elements[0])) {                       // No path elements means home
+$path = ltrim($_SERVER['REQUEST_URI'], '/');    
+$elements = explode('/', $path);                
+if(empty($elements[0])) {                      
     require '../view/homeView.php';
 } else switch(array_shift($elements))            
 {

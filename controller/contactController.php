@@ -89,7 +89,7 @@ if (filter_has_var(INPUT_POST, 'submit')) {
     }
 }
 
-require('../view/contactView.php'); //ici on appelle la vue
+require('../view/contactView.php'); 
 
 
 // var_dump($_POST);

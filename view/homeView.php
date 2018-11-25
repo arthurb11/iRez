@@ -32,7 +32,7 @@
         <span class="ancres" id="services"></span>
         <div class="container">
             <div class="text-center mr-3">
-                <h2 class="text-center text-uppercase" id="h2_services">Services et conseils en informatique</h2><hr/>
+                <h1 class="text-center text-uppercase" id="h1_services">Solutions informatiques en atelier et à domicile</h1><hr/>
                 <p>Nous intervenons rapidement, pour les particuliers et les professionels, à <strong>Aubagne(13400)</strong> et ses alentours afin de vous permettre de profiter de votre informatique au quotidien. </p>
                 <div class="mbr-section-btn pb-5 pt-2"><a class="btn btn-md display-4 btn-services" href="/tarifs">Voir tous les services</a></div>
             </div>
