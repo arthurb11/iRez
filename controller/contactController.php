@@ -1,6 +1,6 @@
 <?php
 
-require('../model/contactRepository.php');
+require('model/contactRepository.php');
 
 
 $error = '';
@@ -84,7 +84,7 @@ if (filter_has_var(INPUT_POST, 'submit')) {
         }
     }
 
-require('../view/contactView.php'); 
+require('view/contactView.php'); 
 
 
 // var_dump($_POST);

@@ -9,12 +9,12 @@
                     <div class="col-md-12 m-0 p-0 filter-color-blue">
                         <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
                             <div class="carousel-inner" role="listbox">
-                                <div class="carousel-item filter-blur active" style="background-image: url('asserts/img/slide-a.jpg');"></div>
-                                <div class="carousel-item filter-blur" style="background-image: url('asserts/img/slide-b.jpg');"></div>
-                                <div class="carousel-item filter-blur" style="background-image: url('asserts/img/slide-c.jpg');"></div>
+                                <div class="carousel-item filter-blur active" style="background-image: url('public/asserts/img/slide-a.jpg');"></div>
+                                <div class="carousel-item filter-blur" style="background-image: url('public/asserts/img/slide-b.jpg');"></div>
+                                <div class="carousel-item filter-blur" style="background-image: url('public/asserts/img/slide-c.jpg');"></div>
                             </div>
                         </div>
-                        <img src="../asserts/img/logo-irez.png" id="logo-presentation" class="img-fluid">
+                        <img src="public/asserts/img/logo-irez.png" id="logo-presentation" class="img-fluid">
                         <div id="presentation">
                             <div class="text-center text-white">
                                 
@@ -53,7 +53,7 @@
                     </div>
                     <div class="col-md-6 image-element">
                         <div class="img-wrap">
-                            <img class="img-fluid img-services" src="asserts/img/depannage-tout-support.jpg" alt="dépannage/réparation d'une unité centrale">
+                            <img class="img-fluid img-services" src="public/asserts/img/depannage-tout-support.jpg" alt="dépannage/réparation d'une unité centrale">
                         </div>
                     </div>
                 </div>
@@ -65,7 +65,7 @@
                 <div class="row align-items-center">
                     <div class="col-md-6 image-element invert-img">
                         <div class="img-wrap">
-                            <img class="img-fluid img-services" src="asserts/img/montage-unite-centrale.jpg" alt="montage d'une unité centrale">
+                            <img class="img-fluid img-services" src="public/asserts/img/montage-unite-centrale.jpg" alt="montage d'une unité centrale">
                         </div>
                     </div>
                     <div class="col-md-6 text-element invert-text">
@@ -98,7 +98,7 @@
                     </div>
                     <div class="col-md-6 image-element">
                         <div class="img-wrap">
-                            <img class="img-fluid img-services" src="asserts/img/conseils-personnalises.jpg" alt="technicien entrain de conseiller un client">
+                            <img class="img-fluid img-services" src="public/asserts/img/conseils-personnalises.jpg" alt="technicien entrain de conseiller un client">
                         </div>
                     </div>
                 </div>
@@ -110,7 +110,7 @@
                 <div class="row align-items-center">
                     <div class="col-md-6 image-element invert-img">
                         <div class="img-wrap">
-                            <img class="img-fluid img-services" src="asserts/img/recuperation-de-donnees.jpg" alt="une pile de disques dur endommagés">
+                            <img class="img-fluid img-services" src="public/asserts/img/recuperation-de-donnees.jpg" alt="une pile de disques dur endommagés">
                         </div>
                     </div>
                     <div class="col-md-6 text-element invert-text">

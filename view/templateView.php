@@ -1,16 +1,6 @@
 <!doctype html>
 <html lang="fr">
     <head>
-        <!-- Begin Cookie Consent plugin by Silktide - http://silktide.com/cookieconsent -->
-
-        <!-- Begin Cookie Consent plugin by Silktide - http://silktide.com/cookieconsent -->
-        <script type="text/javascript">
-            window.cookieconsent_options = {"message":"En poursuivant votre navigation sur ce site, vous acceptez l’utilisation de cookies.","dismiss":"J'accepte","learnMore":"Plus d'infos","link":"/policy","theme":"light-floating"};
-        </script>
-
-        <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/1.0.10/cookieconsent.min.js"></script>
-        <!-- End Cookie Consent plugin -->
-
         <!-- Required meta tags -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -20,8 +10,8 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
         <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Noto+Sans" rel="stylesheet">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-        <link rel="stylesheet" href="asserts/css/style.css">
-        <link rel="shortcut icon" type="image/png" href="../asserts/img/favicon-irez.png" alt="favicon iRez">
+        <link rel="stylesheet" href="public/asserts/css/style.css">
+        <link rel="shortcut icon" type="image/png" href="public/asserts/img/favicon-irez.png" alt="favicon iRez">
         <title> <?= $title ?> </title>
     </head>
     
@@ -31,7 +21,7 @@
             <div class="row">
                 <div class="col-12 no-padding-nav">
                     <nav class="nav navbar navbar-expand-lg navbar-light bg-anthra">  
-                        <a class="navbar-brand text-white py-3" href="/"><img class="img-fluid logonav col-1 col-sm-3 col-md-3 col-lg-4 col-xl-4" src="asserts/img/logo-irez-solutions-informatiques.png" alt="Logo iRez Solutions Informatiques"></a>
+                        <a class="navbar-brand text-white py-3" href="/"><img class="img-fluid logonav col-1 col-sm-3 col-md-3 col-lg-4 col-xl-4" src="public/asserts/img/logo-irez-solutions-informatiques.png" alt="Logo iRez Solutions Informatiques"></a>
                         <button class="navbar-toggler bg-dark" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
@@ -102,13 +92,19 @@
     </footer>
 
     
-    
+    <!-- Begin Cookie Consent plugin by Silktide - http://silktide.com/cookieconsent -->
+    <script type="text/javascript">
+        window.cookieconsent_options = {"message":"En poursuivant votre navigation sur ce site, vous acceptez l’utilisation de cookies.","dismiss":"J'accepte","learnMore":"Plus d'infos","link":"/policy","theme":"light-floating"};
+    </script>
+
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/1.0.10/cookieconsent.min.js"></script>
+    <!-- End Cookie Consent plugin -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <!-- Optional JavaScript -->
-    <script src="asserts/js/main.js"></script>
+    <script src="public/asserts/js/main.js"></script>
 </html>
 
 
