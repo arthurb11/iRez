@@ -4,7 +4,8 @@ $(document).ready(function() {
 
     $(".btn-primary").click(function() {
         $('html').animate({
-            scrollTop: $("#services").offset().top},
+            scrollTop: ($("#services").offset().top)
+        },
             'slow');
     });
   

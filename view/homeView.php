@@ -21,7 +21,7 @@
                                 <p class="text-md-center">Spécialisé depuis plus de 10 ans dans le domaine informatique, nous vous proposons des services en <strong>atelier ainsi qu'à domicile</strong>. 
                                 Nous sommes situés à Aubagne(13) dans la zone des Paluds.<br />
                                 Dépannage de votre machine, assemblage de votre nouveau PC, sauvegarde de vos données, installation réseau... <strong><br /><br />Nous répondrons à tous vos besoins.</strong><br /><br />
-                                <a href="#services" class="btn btn-primary m-3 js-scrollTo">Continuer</a>
+                                <a href="#services" class="btn btn-primary js-scrollTo">Continuer</a>
                             </div>
                         </div>
                     </div>

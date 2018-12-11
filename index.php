@@ -3,7 +3,7 @@
 
 
 
-$path = ltrim($_SERVER['REQUEST_URI'], '/');    
+$path = ltrim($_SERVER['REQUEST_URI'], '/irez/');    
 $elements = explode('/', $path);                
 if(empty($elements[0])) {                      
     require 'view/homeView.php';
